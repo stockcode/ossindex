@@ -2,28 +2,29 @@ package ossindex;
 
 import com.aliyun.openservices.oss.OSSClient;
 import com.aliyun.openservices.oss.model.ListObjectsRequest;
+import com.aliyun.openservices.oss.model.OSSObject;
 import com.aliyun.openservices.oss.model.OSSObjectSummary;
 import com.aliyun.openservices.oss.model.ObjectListing;
 import com.aliyun.openservices.oss.model.ObjectMetadata;
 import com.aliyun.openservices.oss.model.PutObjectResult;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
+import org.apache.commons.io.IOUtils;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Administrator on 13-7-11.
  */
-public class Rename {
+public class ZipOriginal {
 
 
-
-//        URL url = new URL("http://nit-photo.oss.aliyuncs.com/china/%E4%B8%9D%E6%83%85/2001-01-01%2011/13%20%284%29.jpg");
-//        Thumbnails.of(url)
-//                .scale(0.05f).toFile(new File("c:\\thumbnail.jpg"));
 
     public static void main(String[] args) throws IOException {
         String accessKeyId = "tEPWqYKJGESwhRo5";
@@ -45,7 +46,7 @@ public class Rename {
 
 
         for (String rootFolder : rootFolders) {
-            if (!rootFolder.equals("vip/")) continue;;
+            if (rootFolder.contains("asia")) continue;
 
             listObjectsRequest.setPrefix(rootFolder);
             listing = client.listObjects(listObjectsRequest);
@@ -62,24 +63,27 @@ public class Rename {
 
                     String dstFolder = listFolder;
 
-                    if (listFolder.contains(" ")) {
-                        dstFolder = listFolder.replaceAll(" ", "-");
-                        client.copyObject("nit-photo", listFolder, "nit-photo", dstFolder);
-                    }
 
-                        listObjectsRequest.setPrefix(listFolder);
+                        listObjectsRequest.setPrefix(listFolder + "original/");
                         listing = client.listObjects(listObjectsRequest);
 
-                        List<String> picList = new ArrayList<String>();
 
                         for (OSSObjectSummary summary : listing.getObjectSummaries()) {
 
-                            if (summary.getKey().contains(" ")) {
-                                String dstKey = summary.getKey().replaceAll(listFolder, dstFolder).replaceAll(" ", "");
-                                dstKey = FilenameUtils.getPath(dstKey) + "original/" + FilenameUtils.getName(dstKey);
-                                client.copyObject("nit-photo", summary.getKey(), "nit-photo", dstKey);
-                            }
+                            OSSObject ossObject = client.getObject("nit-photo", summary.getKey());
+                            File file = new File("c:\\test\\" + summary.getETag());
+
+                            FileUtils.writeByteArrayToFile(file, IOUtils.toByteArray(ossObject.getObjectContent()));
                         }
+
+                    ZipCompressorByAnt zipCompressorByAnt = new ZipCompressorByAnt("c:\\test\\original.zip");
+                    zipCompressorByAnt.compress("c:\\test\\");
+
+                    File zipFile = new File("c:\\test\\original.zip");
+
+                    uploadIndex(bucketName, client, zipFile, listFolder + "original.zip");
+
+                    FileUtils.cleanDirectory(new File("c:\\test"));
 
                 }
             }
@@ -91,16 +95,16 @@ public class Rename {
 
     }
 
-    private static void uploadIndex(String bucketName, OSSClient client, InputStream is, int length, String key) {
+    private static void uploadIndex(String bucketName, OSSClient client, File zipFile, String key) throws IOException {
         client.deleteObject(bucketName, key);
         // 创建上传Object的Metadata
         ObjectMetadata meta = new ObjectMetadata();
 
         // 必须设置ContentLength
-        meta.setContentLength(length);
+        meta.setContentLength(zipFile.length());
 
         // 上传Object.
-        PutObjectResult result = client.putObject(bucketName, key, is, meta);
+        PutObjectResult result = client.putObject(bucketName, key, FileUtils.openInputStream(zipFile), meta);
 
         // 打印ETag
         System.out.println(result.getETag());

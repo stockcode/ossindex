@@ -14,7 +14,7 @@ public class Category {
     /** Not-null value. */
     private String TITLE;
     private String URL;
-    private Boolean CHOICE;
+    private Boolean CHOICE = false;
 
     public Category() {
     }

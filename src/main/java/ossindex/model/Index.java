@@ -1,8 +1,10 @@
-package ossindex;
+package ossindex.model;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import ossindex.Category;
 
 /**
  * Created by Administrator on 13-7-11.

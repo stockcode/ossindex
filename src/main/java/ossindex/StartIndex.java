@@ -8,10 +8,15 @@ import org.apache.commons.io.IOUtils;
 
 import com.aliyun.openservices.oss.OSSClient;
 import com.aliyun.openservices.oss.model.ListObjectsRequest;
+import com.aliyun.openservices.oss.model.OSSObjectSummary;
 import com.aliyun.openservices.oss.model.ObjectListing;
 import com.aliyun.openservices.oss.model.ObjectMetadata;
 import com.aliyun.openservices.oss.model.PutObjectResult;
 import com.google.gson.Gson;
+
+import ossindex.model.ImageInfo;
+import ossindex.model.ImageInfos;
+import ossindex.model.Index;
 
 public class StartIndex {
 
@@ -67,28 +72,40 @@ public class StartIndex {
                     strs = listFolder.split("/");
                     if (strs.length > 1) {
                         urls.add(listFolder);
-                        Category category = new Category();
-                        category.setURL(listFolder);
-                        category.setCATEGORY(folder);
-                        category.setTITLE(strs[2]);
-                        category.setCATEGORY_ICON(1);
-                        category.setICON(2);
-                        //index.categories.add(category);
+
+                        listObjectsRequest.setPrefix(listFolder + "thumb/");
+                        listing = client.listObjects(listObjectsRequest);
+                        ImageInfos imageInfos = new ImageInfos();
+
+                        for(OSSObjectSummary summary : listing.getObjectSummaries()) {
+                            ImageInfo imageInfo = new ImageInfo();
+                            imageInfo.setKey(summary.getKey());
+                            imageInfo.setUrl(summary.getKey());
+                            imageInfos.getResults().add(imageInfo);
+                        }
+
+
+                        String str = gson.toJson(imageInfos);
+
+                        System.err.println(str);
+
+                        uploadIndex(bucketName, client, str, listFolder + "index.json");
                     }
                 }
             }
 
             index.roots.put(rootFolder.replace("/", ""), urls);
         }
+
         String str = gson.toJson(index);
 
         System.err.println(str);
 
-        uploadIndex(bucketName, client, str);
+        uploadIndex(bucketName, client, str, "index.json");
 
     }
 
-    private static void uploadIndex(String bucketName, OSSClient client, String str) {
+    private static void uploadIndex(String bucketName, OSSClient client, String str, String key) {
         InputStream content = IOUtils.toInputStream(str);
 
         // 创建上传Object的Metadata
@@ -96,8 +113,8 @@ public class StartIndex {
 
         // 必须设置ContentLength
         meta.setContentLength(str.getBytes().length);
+        meta.setContentType("application/json");
 
-        String key = "index.ini";
         // 上传Object.
         PutObjectResult result = client.putObject(bucketName, key, content, meta);
 

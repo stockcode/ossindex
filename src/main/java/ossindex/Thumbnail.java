@@ -58,6 +58,8 @@ public class Thumbnail {
 
 
         for (String rootFolder : rootFolders) {
+            if (!rootFolder.equals("vip/")) continue;
+
             listObjectsRequest.setPrefix(rootFolder);
             listing = client.listObjects(listObjectsRequest);
             System.err.println(rootFolder + ":");
