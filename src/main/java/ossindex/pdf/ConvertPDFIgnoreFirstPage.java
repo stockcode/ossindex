@@ -4,12 +4,9 @@ import com.itextpdf.text.Chunk;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.Image;
-import com.itextpdf.text.PageSize;
 import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.Phrase;
 import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.io.RandomAccessSourceFactory;
-import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfCopy;
 import com.itextpdf.text.pdf.PdfDictionary;
 import com.itextpdf.text.pdf.PdfImportedPage;
@@ -23,15 +20,13 @@ import org.apache.commons.io.FileUtils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 
 /**
  * Created by Administrator on 13-8-8.
  */
-public class ConvertPDF {
+public class ConvertPDFIgnoreFirstPage {
 
     /** The new document to which we've added a border rectangle. */
     public static final String RESULT = "\\Img%s.%s";
@@ -58,19 +53,14 @@ public class ConvertPDF {
     /**
      * Creates a PDF document.
      * @param filename the path to the new PDF document
-     * @throws    DocumentException
-     * @throws    IOException
+     * @throws    com.itextpdf.text.DocumentException
+     * @throws    java.io.IOException
      */
     public void createPdfwithiText(String filename) throws IOException, DocumentException {
         Image img0 = Image.getInstance(listener.files.get(0));
-        Image img1 = Image.getInstance(listener.files.get(1));
+        Image img1 = null;
 
-        if (img0.getHeight() < img1.getHeight())
-            img0.scaleAbsolute(img0.getWidth(), img1.getHeight());
-        else
-            img1.scaleAbsolute(img1.getWidth(), img0.getHeight());
-
-        Rectangle rectangle = new Rectangle(img0.getWidth() + img1.getWidth(), Math.max(img0.getHeight(), img1.getHeight()));
+        Rectangle rectangle = new Rectangle(img0.getWidth(), img0.getHeight());
         // step 1
         Document document = new Document(rectangle, 0, 0, 0, 0);
         // step 2
@@ -81,15 +71,12 @@ public class ConvertPDF {
         // step 4
         // Adding a series of images
 
-        Paragraph paragraph = new Paragraph();
-
-        paragraph.add(new Chunk(img0, 0, 0, true));
-        paragraph.add(new Chunk(img1, 0, 0, true));
-        document.add(paragraph);
+        document.add(img0);
 
 
-        for (int i = 2; i < listener.files.size(); i++) {
-            paragraph = new Paragraph();
+
+        for (int i = 3; i < listener.files.size(); i++) {
+            Paragraph paragraph = new Paragraph();
 
             img0 = Image.getInstance(listener.files.get(i++));
             if (i < listener.files.size()) {
@@ -178,11 +165,11 @@ public class ConvertPDF {
     /**
      * Main method.
      * @param    args    no arguments needed
-     * @throws DocumentException
-     * @throws IOException
+     * @throws com.itextpdf.text.DocumentException
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException, DocumentException {
-        ConvertPDF convertPDF = new ConvertPDF();
+        ConvertPDFIgnoreFirstPage convertPDF = new ConvertPDFIgnoreFirstPage();
         String folder = "c:\\convertPDF";
 
 
