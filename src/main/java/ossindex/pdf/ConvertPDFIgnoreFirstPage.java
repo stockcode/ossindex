@@ -75,7 +75,7 @@ public class ConvertPDFIgnoreFirstPage {
 
 
 
-        for (int i = 3; i < listener.files.size(); i++) {
+        for (int i = 1; i < listener.files.size(); i++) {
             Paragraph paragraph = new Paragraph();
 
             img0 = Image.getInstance(listener.files.get(i++));

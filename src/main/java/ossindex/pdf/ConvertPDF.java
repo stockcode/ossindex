@@ -65,12 +65,8 @@ public class ConvertPDF {
         Image img0 = Image.getInstance(listener.files.get(0));
         Image img1 = Image.getInstance(listener.files.get(1));
 
-        if (img0.getHeight() < img1.getHeight())
-            img0.scaleAbsolute(img0.getWidth(), img1.getHeight());
-        else
-            img1.scaleAbsolute(img1.getWidth(), img0.getHeight());
 
-        Rectangle rectangle = new Rectangle(img0.getWidth() + img1.getWidth(), Math.max(img0.getHeight(), img1.getHeight()));
+        Rectangle rectangle = new Rectangle(img0.getWidth(), img0.getHeight());
         // step 1
         Document document = new Document(rectangle, 0, 0, 0, 0);
         // step 2
@@ -81,10 +77,11 @@ public class ConvertPDF {
         // step 4
         // Adding a series of images
 
-        Paragraph paragraph = new Paragraph();
+        document.add(img0);
 
-        paragraph.add(new Chunk(img0, 0, 0, true));
+        Paragraph paragraph = new Paragraph();
         paragraph.add(new Chunk(img1, 0, 0, true));
+        document.setPageSize(new Rectangle(img1.getWidth(), img1.getHeight()));
         document.add(paragraph);
 
 
