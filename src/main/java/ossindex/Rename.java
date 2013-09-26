@@ -26,9 +26,9 @@ public class Rename {
 //                .scale(0.05f).toFile(new File("c:\\thumbnail.jpg"));
 
     public static void main(String[] args) throws IOException {
-        String accessKeyId = "tEPWqYKJGESwhRo5";
-        String accessKeySecret = "oUkPZvE5HghfRbkX5wklu6qAiDnMrw";
-        String bucketName = "nit-photo";
+        String accessKeyId = "hauXgt6si5cgU39B";
+        String accessKeySecret = "W8pEoUO4h2oIkeAAF1vHdvgdbJXvXp";
+        String bucketName = "beauty-photo";
         // 初始化一个OSSClient
         OSSClient client = new OSSClient(accessKeyId, accessKeySecret);
 
@@ -45,7 +45,7 @@ public class Rename {
 
 
         for (String rootFolder : rootFolders) {
-            if (!rootFolder.equals("vip/")) continue;;
+
 
             listObjectsRequest.setPrefix(rootFolder);
             listing = client.listObjects(listObjectsRequest);
@@ -64,7 +64,7 @@ public class Rename {
 
                     if (listFolder.contains(" ")) {
                         dstFolder = listFolder.replaceAll(" ", "-");
-                        client.copyObject("nit-photo", listFolder, "nit-photo", dstFolder);
+                        client.copyObject(bucketName, listFolder, bucketName, dstFolder);
                     }
 
                         listObjectsRequest.setPrefix(listFolder);
@@ -74,12 +74,17 @@ public class Rename {
 
                         for (OSSObjectSummary summary : listing.getObjectSummaries()) {
 
-                            if (summary.getKey().contains(" ")) {
+                            if (summary.getKey().equals(listFolder)) continue;
+
+                            if (summary.getKey().contains("original")) continue;;
+
                                 String dstKey = summary.getKey().replaceAll(listFolder, dstFolder).replaceAll(" ", "");
                                 dstKey = FilenameUtils.getPath(dstKey) + "original/" + FilenameUtils.getName(dstKey);
-                                client.copyObject("nit-photo", summary.getKey(), "nit-photo", dstKey);
-                            }
+                                client.copyObject(bucketName, summary.getKey(), bucketName, dstKey);
+                                client.deleteObject(bucketName, summary.getKey());
+
                         }
+
 
                 }
             }

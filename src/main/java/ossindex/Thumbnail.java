@@ -39,9 +39,9 @@ public class Thumbnail {
 //                .scale(0.05f).toFile(new File("c:\\thumbnail.jpg"));
 
     public static void main(String[] args) throws IOException {
-        String accessKeyId = "tEPWqYKJGESwhRo5";
-        String accessKeySecret = "oUkPZvE5HghfRbkX5wklu6qAiDnMrw";
-        String bucketName = "nit-photo";
+        String accessKeyId = "hauXgt6si5cgU39B";
+        String accessKeySecret = "W8pEoUO4h2oIkeAAF1vHdvgdbJXvXp";
+        String bucketName = "beauty-photo";
         // 初始化一个OSSClient
         OSSClient client = new OSSClient(accessKeyId, accessKeySecret);
 
@@ -58,7 +58,7 @@ public class Thumbnail {
 
 
         for (String rootFolder : rootFolders) {
-            if (!rootFolder.equals("vip/")) continue;
+
 
             listObjectsRequest.setPrefix(rootFolder);
             listing = client.listObjects(listObjectsRequest);
@@ -93,17 +93,18 @@ public class Thumbnail {
 
 
                     for(String pic : picList) {
-                        if (FilenameUtils.getExtension(pic).equals("")) continue;
+                        if (!FilenameUtils.getExtension(pic).toUpperCase().equals("JPG")) continue;
+
 
                         String key = pic.replaceAll("original/", "thumb/");
 
                         try {
                             client.getObjectMetadata(bucketName, key);
                         } catch (OSSException e) {
-                            URL url = new URL("http://nit-photo.oss.aliyuncs.com/" + pic);
+                            URL url = new URL("http://beauty-photo.oss.aliyuncs.com/" + pic);
                             ByteArrayOutputStream os = new ByteArrayOutputStream();
 
-                            float scale = 0.5f;
+                            float scale = 0.2f;
                             if (pic.endsWith("cover.jpg")) scale = 0.2f;
 
                             Thumbnails.of(url).scale(scale).outputFormat("jpg").toOutputStream(os);

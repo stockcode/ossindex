@@ -26,9 +26,9 @@ public class DeleteThumb {
 //                .scale(0.05f).toFile(new File("c:\\thumbnail.jpg"));
 
     public static void main(String[] args) throws IOException {
-        String accessKeyId = "tEPWqYKJGESwhRo5";
-        String accessKeySecret = "oUkPZvE5HghfRbkX5wklu6qAiDnMrw";
-        String bucketName = "nit-photo";
+        String accessKeyId = "hauXgt6si5cgU39B";
+        String accessKeySecret = "W8pEoUO4h2oIkeAAF1vHdvgdbJXvXp";
+        String bucketName = "beauty-photo";
         // 初始化一个OSSClient
         OSSClient client = new OSSClient(accessKeyId, accessKeySecret);
 

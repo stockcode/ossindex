@@ -21,9 +21,9 @@ import ossindex.model.Index;
 public class StartIndex {
 
     public static void main(String[] args) {
-        String accessKeyId = "tEPWqYKJGESwhRo5";
-        String accessKeySecret = "oUkPZvE5HghfRbkX5wklu6qAiDnMrw";
-        String bucketName = "nit-photo";
+        String accessKeyId = "hauXgt6si5cgU39B";
+        String accessKeySecret = "W8pEoUO4h2oIkeAAF1vHdvgdbJXvXp";
+        String bucketName = "beauty-photo";
         // 初始化一个OSSClient
         OSSClient client = new OSSClient(accessKeyId, accessKeySecret);
 
@@ -53,6 +53,8 @@ public class StartIndex {
 
 
             for (String folder : listing.getCommonPrefixes()) {
+                if (folder.contains(" ")) continue;
+
                 String[] strs = folder.split("/");
                 if (strs.length > 1) {
                     Category category = new Category();
@@ -67,6 +69,8 @@ public class StartIndex {
                 listObjectsRequest.setPrefix(folder);
                 listing = client.listObjects(listObjectsRequest);
                 for (String listFolder : listing.getCommonPrefixes()) {
+                    if (listFolder.contains(" ")) continue;
+
                     System.err.println(listFolder);
 
                     strs = listFolder.split("/");
