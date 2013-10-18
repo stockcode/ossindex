@@ -21,10 +21,12 @@ public class LocalThumbnail {
     static double MB1 = 1024*1024;
     static long K1 = 1024;
     static double K100 = K1 * 100;
-    static double K5 = K1 * 3;
+    static double K5 = K1 * 10;
 
     public static void main(String[] args) throws IOException {
-        String path = args[0];
+        //String path = args[0];
+        String path = "c:\\photo";
+
         System.err.println("path=" + path);
 
         thumbOrginial(path);

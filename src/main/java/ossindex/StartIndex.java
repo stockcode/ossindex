@@ -77,11 +77,13 @@ public class StartIndex {
                     if (strs.length > 1) {
                         urls.add(listFolder);
 
-                        listObjectsRequest.setPrefix(listFolder + "thumb/");
+                        listObjectsRequest.setPrefix(listFolder + "smallthumb/");
                         listing = client.listObjects(listObjectsRequest);
                         ImageInfos imageInfos = new ImageInfos();
 
                         for(OSSObjectSummary summary : listing.getObjectSummaries()) {
+                            if (!summary.getKey().endsWith("jpg")) continue;
+
                             ImageInfo imageInfo = new ImageInfo();
                             imageInfo.setKey(summary.getKey());
                             imageInfo.setUrl(summary.getKey());
@@ -93,7 +95,27 @@ public class StartIndex {
 
                         System.err.println(str);
 
-                        uploadIndex(bucketName, client, str, listFolder + "index.json");
+                        uploadIndex(bucketName, client, str, listFolder + "smallthumb/index.json");
+
+                        listObjectsRequest.setPrefix(listFolder + "bigthumb/");
+                        listing = client.listObjects(listObjectsRequest);
+                        imageInfos = new ImageInfos();
+
+                        for(OSSObjectSummary summary : listing.getObjectSummaries()) {
+                            if (!summary.getKey().endsWith("jpg")) continue;
+
+                            ImageInfo imageInfo = new ImageInfo();
+                            imageInfo.setKey(summary.getKey());
+                            imageInfo.setUrl(summary.getKey());
+                            imageInfos.getResults().add(imageInfo);
+                        }
+
+
+                        str = gson.toJson(imageInfos);
+
+                        System.err.println(str);
+
+                        uploadIndex(bucketName, client, str, listFolder + "bigthumb/index.json");
                     }
                 }
             }
