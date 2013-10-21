@@ -1,8 +1,10 @@
 package ossindex;
 
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 import org.apache.commons.io.IOUtils;
 
@@ -19,8 +21,12 @@ import ossindex.model.ImageInfos;
 import ossindex.model.Index;
 
 public class StartIndex {
+    private static DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 
     public static void main(String[] args) {
+        String today = "2013-10-18";
+
+
         String accessKeyId = "hauXgt6si5cgU39B";
         String accessKeySecret = "W8pEoUO4h2oIkeAAF1vHdvgdbJXvXp";
         String bucketName = "beauty-photo";
@@ -44,6 +50,7 @@ public class StartIndex {
         index.categories = new ArrayList<Category>();
 
 
+        List<String> dailyUrls = new ArrayList<String>();
 
         for (String rootFolder : rootFolders) {
             listObjectsRequest.setPrefix(rootFolder);
@@ -75,7 +82,7 @@ public class StartIndex {
 
                     strs = listFolder.split("/");
                     if (strs.length > 1) {
-                        urls.add(listFolder);
+                        String date = "2000-01-01";
 
                         listObjectsRequest.setPrefix(listFolder + "smallthumb/");
                         listing = client.listObjects(listObjectsRequest);
@@ -88,6 +95,7 @@ public class StartIndex {
                             imageInfo.setKey(summary.getKey());
                             imageInfo.setUrl(summary.getKey());
                             imageInfos.getResults().add(imageInfo);
+                            date = df.format(summary.getLastModified());
                         }
 
 
@@ -116,12 +124,33 @@ public class StartIndex {
                         System.err.println(str);
 
                         uploadIndex(bucketName, client, str, listFolder + "bigthumb/index.json");
+
+                        urls.add(listFolder + ":" + date);
+
+                        if (today.equals(date)) dailyUrls.add(listFolder + ":" + date);
                     }
                 }
             }
 
+            Collections.sort(urls, new Comparator<String>() {
+                @Override
+                public int compare(String o1, String o2) {
+                    try {
+                        Date d1 = df.parse(o1.split(":")[1]);
+                        Date d2 = df.parse(o2.split(":")[1]);
+                        return d2.compareTo(d1);
+
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
+                    return 0;
+                }
+            });
+
             index.roots.put(rootFolder.replace("/", ""), urls);
         }
+
+        index.roots.put("daily", dailyUrls);
 
         String str = gson.toJson(index);
 

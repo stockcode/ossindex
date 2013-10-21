@@ -24,33 +24,68 @@ public class LocalThumbnail {
     static double K5 = K1 * 10;
 
     public static void main(String[] args) throws IOException {
-        //String path = args[0];
-        String path = "c:\\photo";
+        String path = args[0];
 
         System.err.println("path=" + path);
 
-        thumbOrginial(path);
+        ChangeName(new File(path));
+
+        thumbOrignial(path);
 
         thumbBig(path);
 
         thumbSmall(path);
 }
 
+    private static void ChangeName(File file) {
+        File flist[] = file.listFiles();
+        if (flist == null || flist.length == 0) {
+            return;
+        }
+        for (File f : flist) {
+            if (f.isDirectory()) {
+                //这里将列出所有的文件夹
+                System.out.println("Dir==>" + f.getAbsolutePath());
+                if (f.getPath().contains(" ")) {
+                    File dst = new File(f.getPath().replaceAll(" ", "_"));
+                    f.renameTo(dst) ;
+                    f = dst;
+                }
+                ChangeName(f);
+            } else {
+                //这里将列出所有的文件
+                System.out.println("file==>" + f.getAbsolutePath());
+                if (f.getPath().contains(" ")) {
+                    File dst = new File(f.getPath().replaceAll(" ", "_"));
+                    f.renameTo(dst) ;
+                }
+
+                if (f.getPath().contains("vip")) {
+                    File dst = new File(f.getPath().replaceAll("vip", ""));
+                    f.renameTo(dst) ;
+                }
+            }
+        }
+    }
+
     private static void thumbBig(String path) throws IOException {
+        System.err.println("start bigthumb:" + path);
         double scale = 0.5f;
 
         byte[] bytes;
 
 
-        Iterator<File> iter = FileUtils.iterateFiles(new File(path), new String[]{"jpg", "bmp"}, true);
+        Iterator<File> iter = FileUtils.iterateFiles(new File(path), new String[]{"jpg", "JPG"}, true);
         File file;
         while(iter.hasNext()) {
 
             file = iter.next();
             if (!file.getPath().contains("original")) continue;
 
-
+            int i = 0;
             do {
+                i++;
+
                 ByteArrayOutputStream os = new ByteArrayOutputStream();
                 Thumbnails.of(file).scale(scale).outputFormat("jpg").toOutputStream(os);
                 bytes = os.toByteArray();
@@ -58,7 +93,7 @@ public class LocalThumbnail {
                 if (bytes.length - K100 > 0) scale -= 0.01;
                 else scale += 0.01;
 
-            } while (Math.abs(bytes.length - K100) > K1 * 10);
+            } while (Math.abs(bytes.length - K100) > K1 * 10  && i < 10);
 
             System.err.println(file.getPath() + ":" + scale + "");
 
@@ -73,20 +108,24 @@ public class LocalThumbnail {
     }
 
     private static void thumbSmall(String path) throws IOException {
+        System.err.println("start smallthumb:" + path);
+
         double scale = 0.1f;
 
         byte[] bytes;
 
 
-        Iterator<File> iter = FileUtils.iterateFiles(new File(path), new String[]{"jpg", "bmp"}, true);
+        Iterator<File> iter = FileUtils.iterateFiles(new File(path), new String[]{"jpg", "JPG"}, true);
         File file;
         while(iter.hasNext()) {
 
             file = iter.next();
             if (!file.getPath().contains("original")) continue;
 
-
+            int i = 0;
             do {
+                i++;
+
                 ByteArrayOutputStream os = new ByteArrayOutputStream();
                 Thumbnails.of(file).scale(scale).outputFormat("jpg").toOutputStream(os);
                 bytes = os.toByteArray();
@@ -94,7 +133,7 @@ public class LocalThumbnail {
                 if (bytes.length - K5 > 0) scale -= 0.01;
                 else scale += 0.01;
 
-            } while (Math.abs(bytes.length - K5) > K1 * 2);
+            } while (Math.abs(bytes.length - K5) > K1 * 2  && i < 10);
 
             System.err.println(file.getPath() + ":" + scale + "");
 
@@ -109,22 +148,41 @@ public class LocalThumbnail {
     }
 
 
-    private static void thumbOrginial(String path) throws IOException {
+    private static void thumbOrignial(String path) throws IOException {
+        System.err.println("start originalthumb:" + path);
+
         double scale = 0.5f;
 
         byte[] bytes;
 
 
-        Iterator<File> iter = FileUtils.iterateFiles(new File(path), new String[]{"jpg", "bmp"}, true);
+        Iterator<File> iter = FileUtils.iterateFiles(new File(path), new String[]{"jpg", "JPG"}, true);
         File file;
         while(iter.hasNext()) {
-
             file = iter.next();
-            if (file.length() < (MB1 + 100 * K1)) continue;
+
+            if (file.getPath().contains("thumb")) continue;
+
+
+            if (file.length() < (MB1 + 150 * K1)) {
+
+                if (!file.getPath().contains("original")) {
+
+                    String filepath = file.getParent() + "\\original\\";
+                    FileUtils.forceMkdir(new File(filepath));
+                    filepath += file.getName().toLowerCase();
+                    file.renameTo(new File(filepath));
+                }
+
+                continue;
+            }
 
             scale = MB1 / file.length() * 2;
 
+            int i = 0;
             do {
+
+                i++;
 
                 ByteArrayOutputStream os = new ByteArrayOutputStream();
                 Thumbnails.of(file).scale(scale).outputFormat("jpg").toOutputStream(os);
@@ -137,7 +195,7 @@ public class LocalThumbnail {
                 if (len - MB1 > 0) scale -= 0.09;
                 else scale += 0.09;
 
-            } while (Math.abs(bytes.length - MB1) > K1 * 100);
+            } while (Math.abs(bytes.length - MB1) > K1 * 100 && i < 10);
 
             if (file.getPath().contains("original"))
                 FileUtils.writeByteArrayToFile(file, bytes);

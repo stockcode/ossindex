@@ -1,10 +1,13 @@
 package ossindex.model;
 
+import java.util.Date;
+
 public class ImageInfo {
 
 	private String key = "";
 	private String title = "";
 	private String url = "";
+    private Date updated;
 
     public String getKey() {
         return key;
@@ -28,5 +31,13 @@ public class ImageInfo {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public Date getUpdated() {
+        return updated;
+    }
+
+    public void setUpdated(Date updated) {
+        this.updated = updated;
     }
 }
