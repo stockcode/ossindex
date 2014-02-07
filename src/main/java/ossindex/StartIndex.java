@@ -24,12 +24,23 @@ public class StartIndex {
     private static DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 
     public static void main(String[] args) {
-        String today = "2013-10-18";
+
 
 
         String accessKeyId = "hauXgt6si5cgU39B";
         String accessKeySecret = "W8pEoUO4h2oIkeAAF1vHdvgdbJXvXp";
         String bucketName = "beauty-photo";
+
+
+        StartIndex startIndex = new StartIndex();
+
+        startIndex.start(accessKeyId, accessKeySecret, bucketName);
+
+
+    }
+
+    public void start(String accessKeyId, String accessKeySecret, String bucketName) {
+        String today = df.format(new Date());
         // 初始化一个OSSClient
         OSSClient client = new OSSClient(accessKeyId, accessKeySecret);
 
@@ -157,7 +168,6 @@ public class StartIndex {
         System.err.println(str);
 
         uploadIndex(bucketName, client, str, "index.json");
-
     }
 
     private static void uploadIndex(String bucketName, OSSClient client, String str, String key) {
