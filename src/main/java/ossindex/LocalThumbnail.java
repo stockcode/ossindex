@@ -1,34 +1,31 @@
 package ossindex;
 
-import com.aliyun.openservices.oss.OSSClient;
-import com.aliyun.openservices.oss.OSSException;
-import com.aliyun.openservices.oss.model.*;
 import net.coobird.thumbnailator.Thumbnails;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.FilenameUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.*;
-import java.net.URL;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 
 /**
  * Created by Administrator on 13-7-11.
  */
 public class LocalThumbnail {
 
-    static double MB1 = 1024*1024;
+    static double orgSize = 1024*1024 / 2;
     static long K1 = 1024;
-    static double K100 = K1 * 100;
-    static double K5 = K1 * 10;
+    static double bigSize = K1 * 100 / 2;
+    static double littleSize = K1 * 10;
     static DecimalFormat df = new DecimalFormat("#0.00");
+
+    private static Logger logger = LogManager.getLogger(LocalThumbnail.class.getName());
 
     public static void main(String[] args) throws IOException {
         String path = args[0];
 
-        System.err.println("path=" + path);
+        logger.info("path=" + path);
 
         ChangeName(new File(path));
 
@@ -47,7 +44,7 @@ public class LocalThumbnail {
         for (File f : flist) {
             if (f.isDirectory()) {
                 //这里将列出所有的文件夹
-                System.out.println("Dir==>" + f.getAbsolutePath());
+                logger.info("Dir==>" + f.getAbsolutePath());
                 if (f.getPath().contains(" ")) {
                     File dst = new File(f.getPath().replaceAll(" ", "_"));
                     f.renameTo(dst) ;
@@ -56,7 +53,7 @@ public class LocalThumbnail {
                 ChangeName(f);
             } else {
                 //这里将列出所有的文件
-                System.out.println("file==>" + f.getAbsolutePath());
+                logger.info("file==>" + f.getAbsolutePath());
                 if (f.getPath().contains(" ")) {
                     File dst = new File(f.getPath().replaceAll(" ", "_"));
                     f.renameTo(dst) ;
@@ -71,7 +68,7 @@ public class LocalThumbnail {
     }
 
     private static void thumbBig(String path) throws IOException {
-        System.err.println("start bigthumb:" + path);
+        logger.info("start bigthumb:" + path);
 
 
         byte[] bytes;
@@ -80,10 +77,10 @@ public class LocalThumbnail {
         Iterator<File> iter = FileUtils.iterateFiles(new File(path), new String[]{"jpg", "JPG"}, true);
         File file;
         while(iter.hasNext()) {
-            double scale = 0.5f;
             file = iter.next();
             if (!file.getPath().contains("original")) continue;
 
+            double scale = bigSize / file.length() * 3.5;
             int i = 0;
             do {
                 i++;
@@ -92,12 +89,12 @@ public class LocalThumbnail {
                 Thumbnails.of(file).scale(scale).outputFormat("jpg").toOutputStream(os);
                 bytes = os.toByteArray();
 
-                if (bytes.length - K100 > 0) scale -= 0.01;
+                if (bytes.length - bigSize > 0) scale -= 0.01;
                 else scale += 0.01;
 
-            } while (Math.abs(bytes.length - K100) > K1 * 10  && i < 10);
+            } while (Math.abs(bytes.length - bigSize) > (bigSize * 0.1)  && i < 10);
 
-            System.err.println("bigthumb:" + file.getPath() + ":" + df.format(scale) + "");
+            logger.info("bigthumb:" + file.getPath() + ":" + df.format(scale) + ":" + i);
 
             if (file.getPath().contains("bigthumb"))
                 FileUtils.writeByteArrayToFile(file, bytes);
@@ -110,9 +107,9 @@ public class LocalThumbnail {
     }
 
     private static void thumbSmall(String path) throws IOException {
-        System.err.println("start smallthumb:" + path);
+        logger.info("start smallthumb:" + path);
 
-        double scale = 0.1f;
+
 
         byte[] bytes;
 
@@ -121,8 +118,11 @@ public class LocalThumbnail {
         File file;
         while(iter.hasNext()) {
 
+
             file = iter.next();
             if (!file.getPath().contains("original")) continue;
+
+            double scale = littleSize / file.length() * 6;
 
             int i = 0;
             do {
@@ -132,12 +132,12 @@ public class LocalThumbnail {
                 Thumbnails.of(file).scale(scale).outputFormat("jpg").toOutputStream(os);
                 bytes = os.toByteArray();
 
-                if (bytes.length - K5 > 0) scale -= 0.01;
+                if (bytes.length - littleSize > 0) scale -= 0.01;
                 else scale += 0.01;
 
-            } while (Math.abs(bytes.length - K5) > K1 * 2  && i < 10);
+            } while (Math.abs(bytes.length - littleSize) > (littleSize * 0.1)  && i < 10);
 
-            System.err.println("smallthumb" + file.getPath() + ":" + df.format(scale) + "");
+            logger.info("smallthumb" + file.getPath() + ":" + df.format(scale) + ":" + i);
 
             if (file.getPath().contains("smallthumb"))
                 FileUtils.writeByteArrayToFile(file, bytes);
@@ -151,9 +151,9 @@ public class LocalThumbnail {
 
 
     private static void thumbOrignial(String path) throws IOException {
-        System.err.println("start originalthumb:" + path);
+        logger.info("start originalthumb:" + path);
 
-        double scale = 0.5f;
+
 
         byte[] bytes;
 
@@ -161,12 +161,14 @@ public class LocalThumbnail {
         Iterator<File> iter = FileUtils.iterateFiles(new File(path), new String[]{"jpg", "JPG"}, true);
         File file;
         while(iter.hasNext()) {
+            double scale = 0.5f;
+
             file = iter.next();
 
             if (file.getPath().contains("thumb")) continue;
 
 
-            if (file.length() < (MB1 + 150 * K1)) {
+            if (file.length() < (orgSize + 100 * K1)) {
 
                 if (!file.getPath().contains("original")) {
 
@@ -179,7 +181,7 @@ public class LocalThumbnail {
                 continue;
             }
 
-            scale = MB1 / file.length() * 2;
+            scale = orgSize / file.length() * 2;
 
             int i = 0;
             do {
@@ -192,12 +194,12 @@ public class LocalThumbnail {
 
                 int len = bytes.length;
 
-                System.err.println(file.getPath() + ":" + df.format(scale) + ":" + len);
+                logger.info(file.getPath() + ":" + df.format(scale) + ":" + len);
 
-                if (len - MB1 > 0) scale -= 0.09;
+                if (len - orgSize > 0) scale -= 0.09;
                 else scale += 0.09;
 
-            } while (Math.abs(bytes.length - MB1) > K1 * 100 && i < 10);
+            } while (Math.abs(bytes.length - orgSize) > (orgSize * 0.1) && i < 10);
 
             if (file.getPath().contains("original"))
                 FileUtils.writeByteArrayToFile(file, bytes);
