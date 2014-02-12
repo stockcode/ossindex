@@ -80,6 +80,13 @@ public class LocalThumbnail {
             file = iter.next();
             if (!file.getPath().contains("original")) continue;
 
+            String filename = file.getParent().replace("original", "bigthumb" + File.separator) + file.getName();
+
+            if ((new File(filename)).exists()) {
+                logger.info("bigthumb:" + filename + " exist,skipped");
+                continue;
+            }
+
             double scale = bigSize / file.length() * 3.5;
             int i = 0;
             do {
@@ -121,6 +128,13 @@ public class LocalThumbnail {
 
             file = iter.next();
             if (!file.getPath().contains("original")) continue;
+
+            String filename = file.getParent().replace("original", "smallthumb" + File.separator) + file.getName();
+
+            if ((new File(filename)).exists()) {
+                logger.info("smallthumb:" + filename + " exist,skipped");
+                continue;
+            }
 
             double scale = littleSize / file.length() * 6;
 
