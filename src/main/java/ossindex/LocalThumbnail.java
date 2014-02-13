@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.*;
 import java.text.DecimalFormat;
-import java.util.Iterator;
+import java.util.*;
 
 /**
  * Created by Administrator on 13-7-11.
@@ -29,12 +29,61 @@ public class LocalThumbnail {
 
         ChangeName(new File(path));
 
+        selectCover(path);
+
         thumbOrignial(path);
 
         thumbBig(path);
 
         thumbSmall(path);
 }
+
+    private static void selectCover(String path) throws IOException {
+        logger.info("start selectCover:" + path);
+
+        Map<String, List<String>> map = new HashMap<String, List<String>>();
+
+        Iterator<File> iter = FileUtils.iterateFiles(new File(path), new String[]{"jpg", "JPG"}, true);
+        File file;
+        while(iter.hasNext()) {
+
+            file = iter.next();
+
+            if (file.getPath().contains("thumb")) continue;
+
+            if (map.containsKey(file.getParent())) {
+                map.get(file.getParent()).add(file.getPath());
+            } else {
+                List<String> list = new ArrayList<String>();
+                list.add(file.getPath());
+                map.put(file.getParent(), list);
+            }
+        }
+
+        for (Map.Entry<String, List<String>> entry : map.entrySet()) {
+            Boolean skiped = false;
+
+            List<String> files = entry.getValue();
+            for(String filename : files) {
+                if (filename.endsWith("cover.jpg") || filename.endsWith("cover.JPG")) {
+                    skiped = true;
+                    continue;
+                }
+            }
+
+            if (skiped ){
+                logger.info(entry.getKey() + " has cover, skipped");
+                continue;
+            }
+
+            String orgFilename = files.get(0);
+            String dstFilename = entry.getKey() + File.separator + "cover.jpg";
+            FileUtils.copyFile(new File(orgFilename), new File(dstFilename));
+            FileUtils.forceDelete(new File(orgFilename));
+
+            logger.info("rename " + orgFilename + " to " + dstFilename);
+        }
+    }
 
     private static void ChangeName(File file) {
         File flist[] = file.listFiles();
