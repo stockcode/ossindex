@@ -136,12 +136,19 @@ public class LocalThumbnail {
                 continue;
             }
 
+            if (file.length() == 0) {
+                logger.info("filelength=:" + file.length() + ",deleting");
+                file.delete();
+                continue;
+            }
+
             double scale = bigSize / file.length() * 3.5;
             int i = 0;
             do {
                 i++;
 
                 ByteArrayOutputStream os = new ByteArrayOutputStream();
+
                 Thumbnails.of(file).scale(scale).outputFormat("jpg").toOutputStream(os);
                 bytes = os.toByteArray();
 
