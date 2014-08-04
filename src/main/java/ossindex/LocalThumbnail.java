@@ -65,7 +65,8 @@ public class LocalThumbnail {
 
             List<String> files = entry.getValue();
             for(String filename : files) {
-                if (filename.endsWith("cover.jpg") || filename.endsWith("cover.JPG")) {
+                filename = filename.toLowerCase();
+                if (filename.endsWith("cover.jpg")) {
                     skiped = true;
                     continue;
                 }
