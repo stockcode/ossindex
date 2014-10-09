@@ -54,7 +54,7 @@ public class UploadAllPhoto {
                 if (folders != null && folders.length > 0) {
                     for(File folder : folders) {
                         StartEnum(folder);
-                        FileUtils.forceDelete(folder);
+                        //FileUtils.forceDelete(folder);
                     }
                 }
             }
@@ -84,6 +84,8 @@ public class UploadAllPhoto {
                 InputStream is = new ByteArrayInputStream(bytes);
 
                 String key = StringUtils.replace(f.getAbsolutePath(), path, "");
+
+                key = StringUtils.replace(key, f.getName(), f.getName().toLowerCase());
 
                 key = StringUtils.replace(key, "\\", "/");
 
