@@ -163,18 +163,15 @@ public class ExtractPDF {
      */
     public static void main(String[] args) throws IOException, DocumentException {
         ExtractPDF convertPDF = new ExtractPDF();
-        String folder = "c:\\convertPDF";
 
 
 
-        //String filename = args[0];
+        String filename = args[0];
 
-        String filename = "c:\\Temp\\pobing.pdf";
+        //String filename = "c:\\Temp\\pobing.pdf";
 
             File file = new File(filename);
-            File origFile = new File(folder + "\\original\\" + file.getName());
-            file.renameTo(origFile);
-            convertPDF.extractImages(origFile);
+            convertPDF.extractImages(file);
 
     }
 }
