@@ -82,7 +82,7 @@ public class UploadPhoto {
                 byte[] bytes = FileUtils.readFileToByteArray(f);
                 InputStream is = new ByteArrayInputStream(bytes);
 
-                String key = StringUtils.replace(f.getAbsolutePath(), path, "");
+                String key = StringUtils.replace(f.getAbsolutePath(), path, "").toLowerCase();
 
                 key = StringUtils.replace(key, "\\", "/");
 
