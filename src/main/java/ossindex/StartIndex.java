@@ -1,10 +1,15 @@
 package ossindex;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.Unirest;
+import com.mashape.unirest.http.exceptions.UnirestException;
 
 import org.apache.commons.io.IOUtils;
 
@@ -19,17 +24,21 @@ import com.google.gson.Gson;
 import ossindex.model.ImageInfo;
 import ossindex.model.ImageInfos;
 import ossindex.model.Index;
+import ossindex.model.PhotoGallery;
 
 public class StartIndex {
     private static DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-
-    public static void main(String[] args) {
+    
+    private static RestPhotoGallery restPhotoGallery = new RestPhotoGallery();
+    
+    public static void main(String[] args) throws UnirestException, IOException {
 
 
 
         String accessKeyId = "hauXgt6si5cgU39B";
         String accessKeySecret = "W8pEoUO4h2oIkeAAF1vHdvgdbJXvXp";
         String bucketName = "beauty-photo";
+
 
 
         StartIndex startIndex = new StartIndex();
@@ -39,7 +48,7 @@ public class StartIndex {
 
     }
 
-    public void start(String accessKeyId, String accessKeySecret, String bucketName) {
+    public void start(String accessKeyId, String accessKeySecret, String bucketName) throws UnirestException {
         String today = df.format(new Date());
         // 初始化一个OSSClient
         OSSClient client = new OSSClient(accessKeyId, accessKeySecret);
@@ -93,6 +102,9 @@ public class StartIndex {
 
                     strs = listFolder.split("/");
                     if (strs.length > 1) {
+                    	PhotoGallery photoGallery = new PhotoGallery(listFolder);                    	
+                    	restPhotoGallery.SavePhotoGallery(photoGallery);
+                    	
                         String date = "2000-01-01";
 
                         listObjectsRequest.setPrefix(listFolder + "smallthumb/");
@@ -144,7 +156,6 @@ public class StartIndex {
             }
 
             Collections.sort(urls, new Comparator<String>() {
-                @Override
                 public int compare(String o1, String o2) {
                     try {
                         Date d1 = df.parse(o1.split(":")[1]);

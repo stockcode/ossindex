@@ -3,7 +3,10 @@ package ossindex;
 import com.aliyun.openservices.oss.OSSClient;
 import com.aliyun.openservices.oss.model.ObjectMetadata;
 import com.aliyun.openservices.oss.model.PutObjectResult;
+import com.mashape.unirest.http.exceptions.UnirestException;
+
 import net.coobird.thumbnailator.Thumbnails;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -27,7 +30,7 @@ public class UploadPhoto {
 
     private static Logger logger = LogManager.getLogger(UploadPhoto.class.getName());
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, UnirestException {
         path = args[0];
 
         //path = "c:\\photo";

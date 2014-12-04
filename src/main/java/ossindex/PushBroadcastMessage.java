@@ -36,7 +36,6 @@ public class PushBroadcastMessage {
 
         // 3. 若要了解交互细节，请注册YunLogHandler类
         channelClient.setChannelLogHandler(new YunLogHandler() {
-            @Override
             public void onHandle(YunLogEvent event) {
                 System.out.println(event.getMessage());
             }
