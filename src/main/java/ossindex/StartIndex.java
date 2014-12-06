@@ -150,9 +150,9 @@ public class StartIndex {
 
                         uploadIndex(bucketName, client, str, listFolder + "bigthumb/index.json");
 
-                        urls.add(listFolder + ":" + date);
+                        urls.add(listFolder + ":" + date + ":" + objectId);
 
-                        if (today.equals(date)) dailyUrls.add(listFolder + ":" + date);
+                        if (today.equals(date)) dailyUrls.add(listFolder + ":" + date + ":" + objectId);
                     }
                 }
             }
