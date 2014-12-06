@@ -8,6 +8,8 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 
 import java.io.IOException;
 
+import org.json.JSONArray;
+
 import ossindex.model.PhotoGallery;
 
 /**
@@ -25,7 +27,7 @@ public class RestPhotoGallery {
 		Unirest.setDefaultHeader("Content-Type", "application/json");
 	}
 
-	public void SavePhotoGallery(PhotoGallery photoGallery)
+	public String SavePhotoGallery(PhotoGallery photoGallery)
 			throws UnirestException {
 
 		PhotoGallery query = new PhotoGallery();
@@ -36,14 +38,19 @@ public class RestPhotoGallery {
 				.get("https://api.bmob.cn/1/classes/PhotoGallery")
 				.queryString("where", gson.toJson(query)).asJson();
 
-		if (!result.getBody().toString().contains(photoGallery.getKey())) {
+		JSONArray results = result.getBody().getObject().getJSONArray("results");
+		
+		if (!results.isNull(0)) {
+			return results.getJSONObject(0).get("objectId").toString();
+		}
+		else {
 
 		
 		HttpResponse<JsonNode> jsonResponse = Unirest
 				.post("https://api.bmob.cn/1/classes/PhotoGallery").body(gson.toJson(photoGallery))
 				.asJson();
 
-		System.err.println(jsonResponse.getBody());
+		return jsonResponse.getBody().getObject().get("objectId").toString();
 		}
 	}
 }

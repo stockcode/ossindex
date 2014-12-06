@@ -103,7 +103,7 @@ public class StartIndex {
                     strs = listFolder.split("/");
                     if (strs.length > 1) {
                     	PhotoGallery photoGallery = new PhotoGallery(listFolder);                    	
-                    	restPhotoGallery.SavePhotoGallery(photoGallery);
+                    	String objectId = restPhotoGallery.SavePhotoGallery(photoGallery);
                     	
                         String date = "2000-01-01";
 
@@ -111,6 +111,8 @@ public class StartIndex {
                         listing = client.listObjects(listObjectsRequest);
                         ImageInfos imageInfos = new ImageInfos();
 
+                        imageInfos.setObjectId(objectId);
+                        
                         for(OSSObjectSummary summary : listing.getObjectSummaries()) {
                             if (!summary.getKey().endsWith("jpg")) continue;
 
