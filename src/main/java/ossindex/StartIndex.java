@@ -34,7 +34,6 @@ public class StartIndex {
     public static void main(String[] args) throws UnirestException, IOException {
 
 
-
         String accessKeyId = "hauXgt6si5cgU39B";
         String accessKeySecret = "W8pEoUO4h2oIkeAAF1vHdvgdbJXvXp";
         String bucketName = "beauty-photo";
@@ -115,6 +114,8 @@ public class StartIndex {
                         
                         for(OSSObjectSummary summary : listing.getObjectSummaries()) {
                             if (!summary.getKey().endsWith("jpg")) continue;
+
+                            if (summary.getKey().contains("cover")) continue;
 
                             ImageInfo imageInfo = new ImageInfo();
                             imageInfo.setKey(summary.getKey());
