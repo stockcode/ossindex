@@ -173,6 +173,7 @@ public class LocalThumbnail {
     private static void thumbSmall(String path) throws IOException {
         logger.info("start smallthumb:" + path);
 
+        FilterImage filterImage = new FilterImage();
 
 
         byte[] bytes;
@@ -190,6 +191,7 @@ public class LocalThumbnail {
 
             if ((new File(filename)).exists()) {
                 logger.info("smallthumb:" + filename + " exist,skipped");
+                filterImage.Filter(filename);
                 continue;
             }
 
@@ -217,6 +219,8 @@ public class LocalThumbnail {
                 FileUtils.forceMkdir(new File(filepath));
                 FileUtils.writeByteArrayToFile(new File(filepath + file.getName()), bytes);
             }
+
+            filterImage.Filter(filename);
         }
     }
 

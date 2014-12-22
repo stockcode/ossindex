@@ -12,6 +12,7 @@ import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.json.JSONException;
 
 import java.io.*;
 import java.util.Iterator;
@@ -30,7 +31,7 @@ public class UploadPhoto {
 
     private static Logger logger = LogManager.getLogger(UploadPhoto.class.getName());
 
-    public static void main(String[] args) throws IOException, UnirestException {
+    public static void main(String[] args) throws IOException, UnirestException, JSONException {
         path = args[0];
 
         //path = "c:\\photo";

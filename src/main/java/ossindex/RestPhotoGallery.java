@@ -10,6 +10,7 @@ import java.io.IOException;
 
 import org.json.JSONArray;
 
+import org.json.JSONException;
 import ossindex.model.PhotoGallery;
 
 /**
@@ -28,7 +29,7 @@ public class RestPhotoGallery {
 	}
 
 	public String SavePhotoGallery(PhotoGallery photoGallery)
-			throws UnirestException {
+            throws UnirestException, JSONException {
 
 		PhotoGallery query = new PhotoGallery();
 		

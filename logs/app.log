@@ -1,0 +1,1329 @@
+2014-12-09 15:04:09,592 INFO o.LocalThumbnail [main] path=C:\card\
+2014-12-09 15:04:09,599 INFO o.LocalThumbnail [main] Dir==>C:\card\1125
+2014-12-09 15:04:09,600 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽
+2014-12-09 15:04:09,601 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\bigthumb
+2014-12-09 15:04:09,602 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\005.jpg
+2014-12-09 15:04:09,603 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0310.jpg
+2014-12-09 15:04:09,603 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a03918.jpg
+2014-12-09 15:04:09,604 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0395.jpg
+2014-12-09 15:04:09,606 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0401.jpg
+2014-12-09 15:04:09,607 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0404.jpg
+2014-12-09 15:04:09,608 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0405.jpg
+2014-12-09 15:04:09,609 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0407.jpg
+2014-12-09 15:04:09,610 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0410.jpg
+2014-12-09 15:04:09,612 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0742.jpg
+2014-12-09 15:04:09,613 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0745.jpg
+2014-12-09 15:04:09,615 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0748.jpg
+2014-12-09 15:04:09,616 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0750.jpg
+2014-12-09 15:04:09,617 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0758.jpg
+2014-12-09 15:04:09,619 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0759.jpg
+2014-12-09 15:04:09,620 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0760.jpg
+2014-12-09 15:04:09,621 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0766.jpg
+2014-12-09 15:04:09,622 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0775.jpg
+2014-12-09 15:04:09,624 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\cover.jpg
+2014-12-09 15:04:09,625 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\original
+2014-12-09 15:04:09,627 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\005.jpg
+2014-12-09 15:04:09,628 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0310.jpg
+2014-12-09 15:04:09,630 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a03918.jpg
+2014-12-09 15:04:09,631 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0395.jpg
+2014-12-09 15:04:09,632 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0401.jpg
+2014-12-09 15:04:09,634 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0404.jpg
+2014-12-09 15:04:09,635 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0405.jpg
+2014-12-09 15:04:09,635 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0407.jpg
+2014-12-09 15:04:09,636 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0410.jpg
+2014-12-09 15:04:09,637 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0742.jpg
+2014-12-09 15:04:09,638 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0745.jpg
+2014-12-09 15:04:09,638 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0748.jpg
+2014-12-09 15:04:09,640 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0750.jpg
+2014-12-09 15:04:09,641 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0758.jpg
+2014-12-09 15:04:09,642 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0759.jpg
+2014-12-09 15:04:09,642 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0760.jpg
+2014-12-09 15:04:09,643 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0766.jpg
+2014-12-09 15:04:09,644 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0775.jpg
+2014-12-09 15:04:09,645 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\cover.jpg
+2014-12-09 15:04:09,646 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\smallthumb
+2014-12-09 15:04:09,647 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\005.jpg
+2014-12-09 15:04:09,648 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0310.jpg
+2014-12-09 15:04:09,648 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a03918.jpg
+2014-12-09 15:04:09,649 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0395.jpg
+2014-12-09 15:04:09,649 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0401.jpg
+2014-12-09 15:04:09,650 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0404.jpg
+2014-12-09 15:04:09,650 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0405.jpg
+2014-12-09 15:04:09,651 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0407.jpg
+2014-12-09 15:04:09,652 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0410.jpg
+2014-12-09 15:04:09,652 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0742.jpg
+2014-12-09 15:04:09,653 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0745.jpg
+2014-12-09 15:04:09,654 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0748.jpg
+2014-12-09 15:04:09,654 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0750.jpg
+2014-12-09 15:04:09,655 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0758.jpg
+2014-12-09 15:04:09,655 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0759.jpg
+2014-12-09 15:04:09,656 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0760.jpg
+2014-12-09 15:04:09,656 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0766.jpg
+2014-12-09 15:04:09,657 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0775.jpg
+2014-12-09 15:04:09,658 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\cover.jpg
+2014-12-09 15:04:09,659 INFO o.LocalThumbnail [main] file==>C:\card\collection.db
+2014-12-09 15:04:09,660 INFO o.LocalThumbnail [main] Dir==>C:\card\images
+2014-12-09 15:04:09,663 INFO o.LocalThumbnail [main] file==>C:\card\images\abby.jpg
+2014-12-09 15:04:09,664 INFO o.LocalThumbnail [main] file==>C:\card\images\abby.png
+2014-12-09 15:04:09,665 INFO o.LocalThumbnail [main] file==>C:\card\images\airplanes.jpg
+2014-12-09 15:04:09,666 INFO o.LocalThumbnail [main] file==>C:\card\images\ape.jpg
+2014-12-09 15:04:09,667 INFO o.LocalThumbnail [main] file==>C:\card\images\apples.jpg
+2014-12-09 15:04:09,668 INFO o.LocalThumbnail [main] file==>C:\card\images\baby.jpg
+2014-12-09 15:04:09,669 INFO o.LocalThumbnail [main] file==>C:\card\images\balloon.jpg
+2014-12-09 15:04:09,670 INFO o.LocalThumbnail [main] file==>C:\card\images\balloons.jpg
+2014-12-09 15:04:09,672 INFO o.LocalThumbnail [main] file==>C:\card\images\balls.jpg
+2014-12-09 15:04:09,673 INFO o.LocalThumbnail [main] file==>C:\card\images\bananas.jpg
+2014-12-09 15:04:09,674 INFO o.LocalThumbnail [main] file==>C:\card\images\barn.jpg
+2014-12-09 15:04:09,675 INFO o.LocalThumbnail [main] file==>C:\card\images\basket.jpg
+2014-12-09 15:04:09,676 INFO o.LocalThumbnail [main] file==>C:\card\images\bears.jpg
+2014-12-09 15:04:09,676 INFO o.LocalThumbnail [main] file==>C:\card\images\bed.jpg
+2014-12-09 15:04:09,677 INFO o.LocalThumbnail [main] file==>C:\card\images\bee.jpg
+2014-12-09 15:04:09,678 INFO o.LocalThumbnail [main] file==>C:\card\images\bell.jpg
+2014-12-09 15:04:09,679 INFO o.LocalThumbnail [main] file==>C:\card\images\bella.jpg
+2014-12-09 15:04:09,679 INFO o.LocalThumbnail [main] file==>C:\card\images\bella.png
+2014-12-09 15:04:09,680 INFO o.LocalThumbnail [main] file==>C:\card\images\bells.jpg
+2014-12-09 15:04:09,680 INFO o.LocalThumbnail [main] file==>C:\card\images\ben.jpg
+2014-12-09 15:04:09,681 INFO o.LocalThumbnail [main] file==>C:\card\images\ben.png
+2014-12-09 15:04:09,682 INFO o.LocalThumbnail [main] file==>C:\card\images\bench.jpg
+2014-12-09 15:04:09,683 INFO o.LocalThumbnail [main] file==>C:\card\images\bird.jpg
+2014-12-09 15:04:09,684 INFO o.LocalThumbnail [main] file==>C:\card\images\birds.jpg
+2014-12-09 15:04:09,685 INFO o.LocalThumbnail [main] file==>C:\card\images\blanket.jpg
+2014-12-09 15:04:09,686 INFO o.LocalThumbnail [main] file==>C:\card\images\blocks.jpg
+2014-12-09 15:04:09,687 INFO o.LocalThumbnail [main] file==>C:\card\images\blue.jpg
+2014-12-09 15:04:09,690 INFO o.LocalThumbnail [main] file==>C:\card\images\blue.png
+2014-12-09 15:04:09,691 INFO o.LocalThumbnail [main] file==>C:\card\images\bone.jpg
+2014-12-09 15:04:09,692 INFO o.LocalThumbnail [main] file==>C:\card\images\book.jpg
+2014-12-09 15:04:09,693 INFO o.LocalThumbnail [main] file==>C:\card\images\boot.jpg
+2014-12-09 15:04:09,694 INFO o.LocalThumbnail [main] file==>C:\card\images\boots.jpg
+2014-12-09 15:04:09,696 INFO o.LocalThumbnail [main] file==>C:\card\images\bottle.jpg
+2014-12-09 15:04:09,697 INFO o.LocalThumbnail [main] file==>C:\card\images\bowl.jpg
+2014-12-09 15:04:09,698 INFO o.LocalThumbnail [main] file==>C:\card\images\bowls.jpg
+2014-12-09 15:04:09,698 INFO o.LocalThumbnail [main] file==>C:\card\images\bows.jpg
+2014-12-09 15:04:09,699 INFO o.LocalThumbnail [main] file==>C:\card\images\boy.jpg
+2014-12-09 15:04:09,700 INFO o.LocalThumbnail [main] file==>C:\card\images\boys.jpg
+2014-12-09 15:04:09,700 INFO o.LocalThumbnail [main] file==>C:\card\images\bracelet.jpg
+2014-12-09 15:04:09,701 INFO o.LocalThumbnail [main] file==>C:\card\images\bread.jpg
+2014-12-09 15:04:09,702 INFO o.LocalThumbnail [main] file==>C:\card\images\broom.jpg
+2014-12-09 15:04:09,703 INFO o.LocalThumbnail [main] file==>C:\card\images\brother.jpg
+2014-12-09 15:04:09,707 INFO o.LocalThumbnail [main] file==>C:\card\images\brother.png
+2014-12-09 15:04:09,708 INFO o.LocalThumbnail [main] file==>C:\card\images\brush.jpg
+2014-12-09 15:04:09,708 INFO o.LocalThumbnail [main] file==>C:\card\images\bubble.jpg
+2014-12-09 15:04:09,710 INFO o.LocalThumbnail [main] file==>C:\card\images\bug.jpg
+2014-12-09 15:04:09,710 INFO o.LocalThumbnail [main] file==>C:\card\images\bugs.jpg
+2014-12-09 15:04:09,711 INFO o.LocalThumbnail [main] file==>C:\card\images\bunny.jpg
+2014-12-09 15:04:09,712 INFO o.LocalThumbnail [main] file==>C:\card\images\butter.jpg
+2014-12-09 15:04:09,713 INFO o.LocalThumbnail [main] file==>C:\card\images\button.jpg
+2014-12-09 15:04:09,714 INFO o.LocalThumbnail [main] file==>C:\card\images\cake.jpg
+2014-12-09 15:04:09,714 INFO o.LocalThumbnail [main] file==>C:\card\images\candles.jpg
+2014-12-09 15:04:09,715 INFO o.LocalThumbnail [main] file==>C:\card\images\cane.jpg
+2014-12-09 15:04:09,715 INFO o.LocalThumbnail [main] file==>C:\card\images\car.jpg
+2014-12-09 15:04:09,716 INFO o.LocalThumbnail [main] file==>C:\card\images\card.jpg
+2014-12-09 15:04:09,716 INFO o.LocalThumbnail [main] file==>C:\card\images\cards.jpg
+2014-12-09 15:04:09,720 INFO o.LocalThumbnail [main] file==>C:\card\images\cars.jpg
+2014-12-09 15:04:09,721 INFO o.LocalThumbnail [main] file==>C:\card\images\castle.jpg
+2014-12-09 15:04:09,722 INFO o.LocalThumbnail [main] file==>C:\card\images\cats.jpg
+2014-12-09 15:04:09,723 INFO o.LocalThumbnail [main] file==>C:\card\images\chair.jpg
+2014-12-09 15:04:09,724 INFO o.LocalThumbnail [main] file==>C:\card\images\chairs.jpg
+2014-12-09 15:04:09,725 INFO o.LocalThumbnail [main] file==>C:\card\images\cheese.jpg
+2014-12-09 15:04:09,726 INFO o.LocalThumbnail [main] file==>C:\card\images\cherries.jpg
+2014-12-09 15:04:09,727 INFO o.LocalThumbnail [main] file==>C:\card\images\chest.jpg
+2014-12-09 15:04:09,728 INFO o.LocalThumbnail [main] file==>C:\card\images\chicken.jpg
+2014-12-09 15:04:09,728 INFO o.LocalThumbnail [main] file==>C:\card\images\chimney.jpg
+2014-12-09 15:04:09,730 INFO o.LocalThumbnail [main] file==>C:\card\images\claws.jpg
+2014-12-09 15:04:09,730 INFO o.LocalThumbnail [main] file==>C:\card\images\clothes.jpg
+2014-12-09 15:04:09,731 INFO o.LocalThumbnail [main] file==>C:\card\images\cloud.jpg
+2014-12-09 15:04:09,731 INFO o.LocalThumbnail [main] file==>C:\card\images\clown.jpg
+2014-12-09 15:04:09,732 INFO o.LocalThumbnail [main] file==>C:\card\images\coat.jpg
+2014-12-09 15:04:09,733 INFO o.LocalThumbnail [main] file==>C:\card\images\cone.jpg
+2014-12-09 15:04:09,733 INFO o.LocalThumbnail [main] file==>C:\card\images\cookies.jpg
+2014-12-09 15:04:09,734 INFO o.LocalThumbnail [main] file==>C:\card\images\cow.jpg
+2014-12-09 15:04:09,735 INFO o.LocalThumbnail [main] file==>C:\card\images\crown.jpg
+2014-12-09 15:04:09,736 INFO o.LocalThumbnail [main] file==>C:\card\images\daddy.jpg
+2014-12-09 15:04:09,736 INFO o.LocalThumbnail [main] file==>C:\card\images\daddy.png
+2014-12-09 15:04:09,737 INFO o.LocalThumbnail [main] file==>C:\card\images\doghouse.jpg
+2014-12-09 15:04:09,737 INFO o.LocalThumbnail [main] file==>C:\card\images\dogs.jpg
+2014-12-09 15:04:09,738 INFO o.LocalThumbnail [main] file==>C:\card\images\dolls.jpg
+2014-12-09 15:04:09,738 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain
+2014-12-09 15:04:09,739 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain\card
+2014-12-09 15:04:09,739 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain\card\483
+2014-12-09 15:04:09,739 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain\card\483\imgURL1
+2014-12-09 15:04:09,740 INFO o.LocalThumbnail [main] file==>C:\card\images\domain\card\483\imgURL1\file.bin
+2014-12-09 15:04:09,740 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain\card\483\imgURL2
+2014-12-09 15:04:09,741 INFO o.LocalThumbnail [main] file==>C:\card\images\domain\card\483\imgURL2\file.bin
+2014-12-09 15:04:09,741 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain\card\483\imgURL3
+2014-12-09 15:04:09,742 INFO o.LocalThumbnail [main] file==>C:\card\images\domain\card\483\imgURL3\file.bin
+2014-12-09 15:04:09,742 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain\card\null
+2014-12-09 15:04:09,742 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain\card\null\imgURL1
+2014-12-09 15:04:09,743 INFO o.LocalThumbnail [main] file==>C:\card\images\domain\card\null\imgURL1\file.bin
+2014-12-09 15:04:09,743 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain\card\null\imgURL2
+2014-12-09 15:04:09,743 INFO o.LocalThumbnail [main] file==>C:\card\images\domain\card\null\imgURL2\file.bin
+2014-12-09 15:04:09,744 INFO o.LocalThumbnail [main] Dir==>C:\card\images\domain\card\null\imgURL3
+2014-12-09 15:04:09,744 INFO o.LocalThumbnail [main] file==>C:\card\images\domain\card\null\imgURL3\file.bin
+2014-12-09 15:04:09,745 INFO o.LocalThumbnail [main] file==>C:\card\images\dress.jpg
+2014-12-09 15:04:09,745 INFO o.LocalThumbnail [main] file==>C:\card\images\ducks.jpg
+2014-12-09 15:04:09,746 INFO o.LocalThumbnail [main] file==>C:\card\images\ear.jpg
+2014-12-09 15:04:09,746 INFO o.LocalThumbnail [main] file==>C:\card\images\ear.png
+2014-12-09 15:04:09,747 INFO o.LocalThumbnail [main] file==>C:\card\images\ears.jpg
+2014-12-09 15:04:09,747 INFO o.LocalThumbnail [main] file==>C:\card\images\earth.jpg
+2014-12-09 15:04:09,749 INFO o.LocalThumbnail [main] file==>C:\card\images\eggs.jpg
+2014-12-09 15:04:09,754 INFO o.LocalThumbnail [main] file==>C:\card\images\eight.jpg
+2014-12-09 15:04:09,755 INFO o.LocalThumbnail [main] file==>C:\card\images\eye.jpg
+2014-12-09 15:04:09,755 INFO o.LocalThumbnail [main] file==>C:\card\images\eye.png
+2014-12-09 15:04:09,756 INFO o.LocalThumbnail [main] file==>C:\card\images\eyes.jpg
+2014-12-09 15:04:09,758 INFO o.LocalThumbnail [main] file==>C:\card\images\fan.jpg
+2014-12-09 15:04:09,758 INFO o.LocalThumbnail [main] file==>C:\card\images\farm.jpg
+2014-12-09 15:04:09,759 INFO o.LocalThumbnail [main] file==>C:\card\images\fat.jpg
+2014-12-09 15:04:09,760 INFO o.LocalThumbnail [main] file==>C:\card\images\fat.png
+2014-12-09 15:04:09,760 INFO o.LocalThumbnail [main] file==>C:\card\images\feathers.jpg
+2014-12-09 15:04:09,761 INFO o.LocalThumbnail [main] file==>C:\card\images\feet.jpg
+2014-12-09 15:04:09,761 INFO o.LocalThumbnail [main] file==>C:\card\images\fence.jpg
+2014-12-09 15:04:09,762 INFO o.LocalThumbnail [main] file==>C:\card\images\fine.jpg
+2014-12-09 15:04:09,763 INFO o.LocalThumbnail [main] file==>C:\card\images\fine.png
+2014-12-09 15:04:09,764 INFO o.LocalThumbnail [main] file==>C:\card\images\fireplace.jpg
+2014-12-09 15:04:09,765 INFO o.LocalThumbnail [main] file==>C:\card\images\fishbowl.jpg
+2014-12-09 15:04:09,766 INFO o.LocalThumbnail [main] file==>C:\card\images\five.jpg
+2014-12-09 15:04:09,766 INFO o.LocalThumbnail [main] file==>C:\card\images\five.png
+2014-12-09 15:04:09,767 INFO o.LocalThumbnail [main] file==>C:\card\images\flag.jpg
+2014-12-09 15:04:09,768 INFO o.LocalThumbnail [main] file==>C:\card\images\floor.jpg
+2014-12-09 15:04:09,768 INFO o.LocalThumbnail [main] file==>C:\card\images\flowers.jpg
+2014-12-09 15:04:09,768 INFO o.LocalThumbnail [main] file==>C:\card\images\fly.jpg
+2014-12-09 15:04:09,769 INFO o.LocalThumbnail [main] file==>C:\card\images\four.jpg
+2014-12-09 15:04:09,770 INFO o.LocalThumbnail [main] file==>C:\card\images\four.png
+2014-12-09 15:04:09,771 INFO o.LocalThumbnail [main] file==>C:\card\images\fried_eggs.jpg
+2014-12-09 15:04:09,772 INFO o.LocalThumbnail [main] file==>C:\card\images\giraffe.jpg
+2014-12-09 15:04:09,772 INFO o.LocalThumbnail [main] file==>C:\card\images\girl.jpg
+2014-12-09 15:04:09,773 INFO o.LocalThumbnail [main] file==>C:\card\images\girls.jpg
+2014-12-09 15:04:09,774 INFO o.LocalThumbnail [main] file==>C:\card\images\gloves.jpg
+2014-12-09 15:04:09,774 INFO o.LocalThumbnail [main] file==>C:\card\images\grapes.jpg
+2014-12-09 15:04:09,775 INFO o.LocalThumbnail [main] file==>C:\card\images\green.jpg
+2014-12-09 15:04:09,775 INFO o.LocalThumbnail [main] file==>C:\card\images\green.png
+2014-12-09 15:04:09,776 INFO o.LocalThumbnail [main] file==>C:\card\images\hammer.jpg
+2014-12-09 15:04:09,776 INFO o.LocalThumbnail [main] file==>C:\card\images\hamster.jpg
+2014-12-09 15:04:09,777 INFO o.LocalThumbnail [main] file==>C:\card\images\hands.jpg
+2014-12-09 15:04:09,777 INFO o.LocalThumbnail [main] file==>C:\card\images\hat.jpg
+2014-12-09 15:04:09,778 INFO o.LocalThumbnail [main] file==>C:\card\images\hats.jpg
+2014-12-09 15:04:09,778 INFO o.LocalThumbnail [main] file==>C:\card\images\head.jpg
+2014-12-09 15:04:09,779 INFO o.LocalThumbnail [main] file==>C:\card\images\head.png
+2014-12-09 15:04:09,780 INFO o.LocalThumbnail [main] file==>C:\card\images\heads.jpg
+2014-12-09 15:04:09,781 INFO o.LocalThumbnail [main] file==>C:\card\images\hear.jpg
+2014-12-09 15:04:09,782 INFO o.LocalThumbnail [main] file==>C:\card\images\heart.jpg
+2014-12-09 15:04:09,783 INFO o.LocalThumbnail [main] file==>C:\card\images\hearts.jpg
+2014-12-09 15:04:09,783 INFO o.LocalThumbnail [main] file==>C:\card\images\hill.jpg
+2014-12-09 15:04:09,783 INFO o.LocalThumbnail [main] file==>C:\card\images\honey.jpg
+2014-12-09 15:04:09,784 INFO o.LocalThumbnail [main] file==>C:\card\images\hoop.jpg
+2014-12-09 15:04:09,785 INFO o.LocalThumbnail [main] file==>C:\card\images\horns.jpg
+2014-12-09 15:04:09,786 INFO o.LocalThumbnail [main] file==>C:\card\images\hotdog.jpg
+2014-12-09 15:04:09,787 INFO o.LocalThumbnail [main] file==>C:\card\images\icecream.jpg
+2014-12-09 15:04:09,788 INFO o.LocalThumbnail [main] file==>C:\card\images\igloo.jpg
+2014-12-09 15:04:09,788 INFO o.LocalThumbnail [main] file==>C:\card\images\igloo.png
+2014-12-09 15:04:09,789 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1016005625.jpg
+2014-12-09 15:04:09,789 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1072316693.jpg
+2014-12-09 15:04:09,790 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1076669548.jpg
+2014-12-09 15:04:09,790 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1133608536.gif
+2014-12-09 15:04:09,791 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1136248439.jpg
+2014-12-09 15:04:09,792 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1152849494.jpg
+2014-12-09 15:04:09,792 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1180547284.jpg
+2014-12-09 15:04:09,792 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1186837297.jpg
+2014-12-09 15:04:09,793 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1187891664.jpg
+2014-12-09 15:04:09,793 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1189172257.jpg
+2014-12-09 15:04:09,794 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1218550874.jpg
+2014-12-09 15:04:09,794 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1250745307.jpg
+2014-12-09 15:04:09,794 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-125229703.jpg
+2014-12-09 15:04:09,797 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1258509749.jpg
+2014-12-09 15:04:09,798 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-134383867.jpg
+2014-12-09 15:04:09,798 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1348200739.jpg
+2014-12-09 15:04:09,799 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1382293115.jpg
+2014-12-09 15:04:09,799 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1428259872.jpg
+2014-12-09 15:04:09,800 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-144206681.jpg
+2014-12-09 15:04:09,800 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1444785992.jpg
+2014-12-09 15:04:09,801 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1445803449.jpg
+2014-12-09 15:04:09,801 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1463698809.jpg
+2014-12-09 15:04:09,801 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1484906264.jpg
+2014-12-09 15:04:09,802 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1503940774.jpg
+2014-12-09 15:04:09,802 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1506566315.jpg
+2014-12-09 15:04:09,802 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1506953508.jpg
+2014-12-09 15:04:09,803 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1512844683.jpg
+2014-12-09 15:04:09,803 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1550923982.jpg
+2014-12-09 15:04:09,803 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1572930925.jpg
+2014-12-09 15:04:09,803 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1588247094.jpg
+2014-12-09 15:04:09,804 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-159793422.jpg
+2014-12-09 15:04:09,804 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1600300625.jpg
+2014-12-09 15:04:09,804 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1601056139.jpg
+2014-12-09 15:04:09,805 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1608679116.jpeg
+2014-12-09 15:04:09,805 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1616257676.jpg
+2014-12-09 15:04:09,805 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1632725322.jpg
+2014-12-09 15:04:09,806 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1638616000.jpg
+2014-12-09 15:04:09,806 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1642020385.jpg
+2014-12-09 15:04:09,806 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1652614516.jpg
+2014-12-09 15:04:09,807 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1656316017.gif
+2014-12-09 15:04:09,807 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1681813989.jpg
+2014-12-09 15:04:09,807 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1753977955.jpg
+2014-12-09 15:04:09,808 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1814361206.jpg
+2014-12-09 15:04:09,808 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1817953249.gif
+2014-12-09 15:04:09,808 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1877532078.jpg
+2014-12-09 15:04:09,809 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1883849280.jpg
+2014-12-09 15:04:09,809 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1885665043.jpg
+2014-12-09 15:04:09,809 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-188847000.jpg
+2014-12-09 15:04:09,809 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1918916813.jpg
+2014-12-09 15:04:09,810 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1921495201.jpg
+2014-12-09 15:04:09,811 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1926077314.jpg
+2014-12-09 15:04:09,811 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1960950659.jpg
+2014-12-09 15:04:09,811 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1974219597.jpg
+2014-12-09 15:04:09,812 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1975854206.jpg
+2014-12-09 15:04:09,812 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1979327508.jpg
+2014-12-09 15:04:09,813 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-198853763.jpg
+2014-12-09 15:04:09,813 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-1990849061.jpg
+2014-12-09 15:04:09,822 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-2009414970.jpg
+2014-12-09 15:04:09,823 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-2014379360.jpg
+2014-12-09 15:04:09,824 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-2016628614.jpg
+2014-12-09 15:04:09,877 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-2029105265.jpg
+2014-12-09 15:04:09,877 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-2049599282.png
+2014-12-09 15:04:09,878 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-206992188.jpg
+2014-12-09 15:04:09,878 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-2074961316.jpg
+2014-12-09 15:04:09,878 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-2077430633.jpg
+2014-12-09 15:04:09,879 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-2089270599.jpg
+2014-12-09 15:04:09,880 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-2122455195.jpg
+2014-12-09 15:04:09,880 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-233301874.jpg
+2014-12-09 15:04:09,881 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-236171837.jpeg
+2014-12-09 15:04:09,881 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-264134615.jpg
+2014-12-09 15:04:09,881 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-276368995.jpg
+2014-12-09 15:04:09,882 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-289883478.jpg
+2014-12-09 15:04:09,882 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-310480176.jpg
+2014-12-09 15:04:09,882 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-321031914.jpg
+2014-12-09 15:04:09,883 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-329234468.gif
+2014-12-09 15:04:09,883 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-353793144.jpg
+2014-12-09 15:04:09,883 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-37057554.jpg
+2014-12-09 15:04:09,884 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-371870319.jpg
+2014-12-09 15:04:09,884 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-389175361.jpg
+2014-12-09 15:04:09,884 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-396003895.jpg
+2014-12-09 15:04:09,885 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-411740029.jpg
+2014-12-09 15:04:09,885 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-420824456.gif
+2014-12-09 15:04:09,885 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-42365213.jpg
+2014-12-09 15:04:09,886 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-443725739.jpg
+2014-12-09 15:04:09,886 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-474818185.jpg
+2014-12-09 15:04:09,886 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-515634613.jpg
+2014-12-09 15:04:09,887 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-522308007.jpg
+2014-12-09 15:04:09,887 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-596411447.jpg
+2014-12-09 15:04:09,887 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-613688910.jpg
+2014-12-09 15:04:09,888 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-621596819.jpg
+2014-12-09 15:04:09,936 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-63885821.jpg
+2014-12-09 15:04:09,936 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-656538028.png
+2014-12-09 15:04:09,937 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-665554996.jpg
+2014-12-09 15:04:09,937 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-709273469.jpg
+2014-12-09 15:04:09,937 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-754742405.jpg
+2014-12-09 15:04:09,938 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-761257781.jpg
+2014-12-09 15:04:09,938 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-796343270.jpg
+2014-12-09 15:04:09,939 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-810575991.jpg
+2014-12-09 15:04:09,939 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-811954491.jpg
+2014-12-09 15:04:09,940 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-817268405.jpg
+2014-12-09 15:04:09,940 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-818188362.jpg
+2014-12-09 15:04:09,940 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-834199248.jpg
+2014-12-09 15:04:09,941 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-898003674.jpg
+2014-12-09 15:04:09,941 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-91452047.jpg
+2014-12-09 15:04:09,941 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-91502252.jpg
+2014-12-09 15:04:09,941 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-938906842.jpg
+2014-12-09 15:04:09,942 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-948147662.jpg
+2014-12-09 15:04:09,942 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-949416667.jpeg
+2014-12-09 15:04:09,942 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-964236031.jpg
+2014-12-09 15:04:09,943 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-967922268.jpg
+2014-12-09 15:04:09,943 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-972609924.jpg
+2014-12-09 15:04:09,943 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch-991813734.jpg
+2014-12-09 15:04:09,944 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1003084821.jpg
+2014-12-09 15:04:09,944 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1004058198.jpg
+2014-12-09 15:04:09,944 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1011764203.jpg
+2014-12-09 15:04:09,945 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1015781688.jpg
+2014-12-09 15:04:09,945 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1017587420.jpg
+2014-12-09 15:04:09,945 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1037968596.jpg
+2014-12-09 15:04:09,945 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch105772358.jpg
+2014-12-09 15:04:09,946 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1061618240.png
+2014-12-09 15:04:09,946 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch108962127.jpg
+2014-12-09 15:04:09,946 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1112379428.jpg
+2014-12-09 15:04:09,947 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1124086539.jpg
+2014-12-09 15:04:09,947 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1151706290.jpg
+2014-12-09 15:04:09,947 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch120673120.jpg
+2014-12-09 15:04:09,947 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1225306310.jpg
+2014-12-09 15:04:09,948 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1230568082.JPG
+2014-12-09 15:04:09,948 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1234486554.jpg
+2014-12-09 15:04:09,948 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1261241203.jpg
+2014-12-09 15:04:09,949 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1283693318.jpg
+2014-12-09 15:04:09,949 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1289255557.gif
+2014-12-09 15:04:09,950 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1289255557.jpg
+2014-12-09 15:04:09,950 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1300972626.jpg
+2014-12-09 15:04:09,950 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1317381859.jpg
+2014-12-09 15:04:09,951 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1322047774.jpg
+2014-12-09 15:04:09,951 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1344167915.jpg
+2014-12-09 15:04:09,951 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1344521218.jpg
+2014-12-09 15:04:09,951 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1344735379.jpg
+2014-12-09 15:04:09,952 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1346486380.jpg
+2014-12-09 15:04:09,952 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch13761513.jpg
+2014-12-09 15:04:09,952 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch14256001.jpg
+2014-12-09 15:04:09,953 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1434034471.jpg
+2014-12-09 15:04:09,953 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1470103042.mp3
+2014-12-09 15:04:09,953 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1471094316.jpg
+2014-12-09 15:04:09,954 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1474905415.jpg
+2014-12-09 15:04:09,954 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1480750341.jpg
+2014-12-09 15:04:09,954 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1498876010.jpg
+2014-12-09 15:04:09,955 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1511881415.jpg
+2014-12-09 15:04:09,955 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1563178625.jpg
+2014-12-09 15:04:09,955 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1568716335.jpg
+2014-12-09 15:04:09,956 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch159407438.jpg
+2014-12-09 15:04:09,956 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1595387759.jpg
+2014-12-09 15:04:09,956 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1792520039.jpg
+2014-12-09 15:04:09,957 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1805242931.jpg
+2014-12-09 15:04:09,957 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1811710413.jpg
+2014-12-09 15:04:09,957 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1819981457.jpg
+2014-12-09 15:04:09,958 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1917100554.jpg
+2014-12-09 15:04:09,958 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1934785531.jpg
+2014-12-09 15:04:09,958 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1947931444.jpg
+2014-12-09 15:04:09,959 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1998690432.jpeg
+2014-12-09 15:04:09,959 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch1999126660.jpg
+2014-12-09 15:04:09,960 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch2009894407.jpg
+2014-12-09 15:04:09,960 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch2019810681.jpg
+2014-12-09 15:04:09,960 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch2032891874.jpg
+2014-12-09 15:04:09,961 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch2097872147.jpg
+2014-12-09 15:04:09,961 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch210600546.jpg
+2014-12-09 15:04:09,961 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch2132116137.jpg
+2014-12-09 15:04:09,962 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch227734679.jpg
+2014-12-09 15:04:09,962 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch263010939.jpg
+2014-12-09 15:04:09,962 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch284529034.jpg
+2014-12-09 15:04:09,963 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch299507551.jpg
+2014-12-09 15:04:09,963 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch310196319.jpg
+2014-12-09 15:04:09,963 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch32856370.jpg
+2014-12-09 15:04:09,964 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch334312161.png
+2014-12-09 15:04:09,964 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch342469355.jpg
+2014-12-09 15:04:09,964 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch353872484.jpg
+2014-12-09 15:04:09,965 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch370452887.jpg
+2014-12-09 15:04:09,965 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch373681305.jpg
+2014-12-09 15:04:09,965 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch385642793.jpg
+2014-12-09 15:04:09,966 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch389738182.jpg
+2014-12-09 15:04:09,966 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch403060809.jpg
+2014-12-09 15:04:09,966 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch419932428.jpg
+2014-12-09 15:04:09,967 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch420321459.jpg
+2014-12-09 15:04:09,967 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch421535230.jpg
+2014-12-09 15:04:09,967 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch425202847.jpg
+2014-12-09 15:04:09,968 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch483147259.jpg
+2014-12-09 15:04:09,968 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch4951213.jpg
+2014-12-09 15:04:09,968 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch506932288.jpg
+2014-12-09 15:04:09,969 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch533566566.jpg
+2014-12-09 15:04:09,969 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch536772144.jpg
+2014-12-09 15:04:09,970 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch56342281.jpg
+2014-12-09 15:04:09,970 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch584229916.jpg
+2014-12-09 15:04:09,971 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch63052753.jpg
+2014-12-09 15:04:09,971 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch692173490.jpg
+2014-12-09 15:04:09,971 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch692622874.jpg
+2014-12-09 15:04:09,972 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch698183406.jpg
+2014-12-09 15:04:09,972 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch708459520.jpg
+2014-12-09 15:04:09,972 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch711106785.jpg
+2014-12-09 15:04:09,973 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch711341933.jpg
+2014-12-09 15:04:09,973 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch717277691.jpg
+2014-12-09 15:04:09,973 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch744189079.jpg
+2014-12-09 15:04:09,974 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch747600189.jpg
+2014-12-09 15:04:09,974 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch796299308.jpg
+2014-12-09 15:04:09,974 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch796299308.png
+2014-12-09 15:04:09,975 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch79669114.jpg
+2014-12-09 15:04:09,975 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch822108196.jpg
+2014-12-09 15:04:09,975 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch827134593.jpg
+2014-12-09 15:04:09,976 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch832028926.jpg
+2014-12-09 15:04:09,976 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch835666357.jpg
+2014-12-09 15:04:09,976 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch875478600.jpg
+2014-12-09 15:04:09,977 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch884851600.gif
+2014-12-09 15:04:09,977 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch888455153.jpg
+2014-12-09 15:04:09,977 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch914360445.jpg
+2014-12-09 15:04:09,978 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch931896309.jpg
+2014-12-09 15:04:09,978 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch93624753.jpg
+2014-12-09 15:04:09,978 INFO o.LocalThumbnail [main] file==>C:\card\images\imgsearch983901043.jpg
+2014-12-09 15:04:09,990 INFO o.LocalThumbnail [main] file==>C:\card\images\knees.jpg
+2014-12-09 15:04:09,991 INFO o.LocalThumbnail [main] file==>C:\card\images\knees.png
+2014-12-09 15:04:09,992 INFO o.LocalThumbnail [main] file==>C:\card\images\kobe.jpg
+2014-12-09 15:04:09,992 INFO o.LocalThumbnail [main] file==>C:\card\images\kobe.png
+2014-12-09 15:04:09,993 INFO o.LocalThumbnail [main] file==>C:\card\images\lady.jpg
+2014-12-09 15:04:09,994 INFO o.LocalThumbnail [main] file==>C:\card\images\lake.jpg
+2014-12-09 15:04:09,994 INFO o.LocalThumbnail [main] file==>C:\card\images\legs.jpg
+2014-12-09 15:04:09,994 INFO o.LocalThumbnail [main] file==>C:\card\images\lightning.jpg
+2014-12-09 15:04:09,995 INFO o.LocalThumbnail [main] file==>C:\card\images\man.jpg
+2014-12-09 15:04:09,995 INFO o.LocalThumbnail [main] file==>C:\card\images\mat.jpg
+2014-12-09 15:04:09,996 INFO o.LocalThumbnail [main] file==>C:\card\images\me.jpg
+2014-12-09 15:04:09,996 INFO o.LocalThumbnail [main] file==>C:\card\images\me.png
+2014-12-09 15:04:09,997 INFO o.LocalThumbnail [main] file==>C:\card\images\mirror.jpg
+2014-12-09 15:04:09,997 INFO o.LocalThumbnail [main] file==>C:\card\images\mitten.jpg
+2014-12-09 15:04:09,998 INFO o.LocalThumbnail [main] file==>C:\card\images\mommy.jpg
+2014-12-09 15:04:09,998 INFO o.LocalThumbnail [main] file==>C:\card\images\mommy.png
+2014-12-09 15:04:09,999 INFO o.LocalThumbnail [main] file==>C:\card\images\money.jpg
+2014-12-09 15:04:10,000 INFO o.LocalThumbnail [main] file==>C:\card\images\moon.jpg
+2014-12-09 15:04:10,000 INFO o.LocalThumbnail [main] file==>C:\card\images\moon.png
+2014-12-09 15:04:10,000 INFO o.LocalThumbnail [main] file==>C:\card\images\mop.jpg
+2014-12-09 15:04:10,001 INFO o.LocalThumbnail [main] file==>C:\card\images\mouth.jpg
+2014-12-09 15:04:10,001 INFO o.LocalThumbnail [main] file==>C:\card\images\mouth.png
+2014-12-09 15:04:10,001 INFO o.LocalThumbnail [main] file==>C:\card\images\mud cake.jpg
+2014-12-09 15:04:10,004 INFO o.LocalThumbnail [main] file==>C:\card\images\mud_cake.jpg
+2014-12-09 15:04:10,004 INFO o.LocalThumbnail [main] file==>C:\card\images\mushrooms.jpg
+2014-12-09 15:04:10,005 INFO o.LocalThumbnail [main] file==>C:\card\images\nine.jpg
+2014-12-09 15:04:10,005 INFO o.LocalThumbnail [main] file==>C:\card\images\noodles.jpg
+2014-12-09 15:04:10,005 INFO o.LocalThumbnail [main] file==>C:\card\images\nose.jpg
+2014-12-09 15:04:10,006 INFO o.LocalThumbnail [main] file==>C:\card\images\nurse.jpg
+2014-12-09 15:04:10,006 INFO o.LocalThumbnail [main] file==>C:\card\images\nurse.png
+2014-12-09 15:04:10,006 INFO o.LocalThumbnail [main] file==>C:\card\images\nuts.jpg
+2014-12-09 15:04:10,007 INFO o.LocalThumbnail [main] file==>C:\card\images\octopus.jpg
+2014-12-09 15:04:10,007 INFO o.LocalThumbnail [main] file==>C:\card\images\one.jpg
+2014-12-09 15:04:10,007 INFO o.LocalThumbnail [main] file==>C:\card\images\one.png
+2014-12-09 15:04:10,008 INFO o.LocalThumbnail [main] file==>C:\card\images\orange.jpg
+2014-12-09 15:04:10,009 INFO o.LocalThumbnail [main] file==>C:\card\images\orange.png
+2014-12-09 15:04:10,010 INFO o.LocalThumbnail [main] file==>C:\card\images\oranges.jpg
+2014-12-09 15:04:10,010 INFO o.LocalThumbnail [main] file==>C:\card\images\panda.jpg
+2014-12-09 15:04:10,010 INFO o.LocalThumbnail [main] file==>C:\card\images\pants.jpg
+2014-12-09 15:04:10,011 INFO o.LocalThumbnail [main] file==>C:\card\images\paper.jpg
+2014-12-09 15:04:10,011 INFO o.LocalThumbnail [main] file==>C:\card\images\parrot.jpg
+2014-12-09 15:04:10,012 INFO o.LocalThumbnail [main] file==>C:\card\images\pears.jpg
+2014-12-09 15:04:10,012 INFO o.LocalThumbnail [main] file==>C:\card\images\peas.jpg
+2014-12-09 15:04:10,013 INFO o.LocalThumbnail [main] file==>C:\card\images\pencil.jpg
+2014-12-09 15:04:10,013 INFO o.LocalThumbnail [main] file==>C:\card\images\pencils.jpg
+2014-12-09 15:04:10,014 INFO o.LocalThumbnail [main] file==>C:\card\images\phone.jpg
+2014-12-09 15:04:10,015 INFO o.LocalThumbnail [main] file==>C:\card\images\pigs.jpg
+2014-12-09 15:04:10,015 INFO o.LocalThumbnail [main] file==>C:\card\images\pillow.jpg
+2014-12-09 15:04:10,016 INFO o.LocalThumbnail [main] file==>C:\card\images\pirates.jpg
+2014-12-09 15:04:10,017 INFO o.LocalThumbnail [main] file==>C:\card\images\pizza.jpg
+2014-12-09 15:04:10,017 INFO o.LocalThumbnail [main] file==>C:\card\images\plate.jpg
+2014-12-09 15:04:10,018 INFO o.LocalThumbnail [main] file==>C:\card\images\pool.jpg
+2014-12-09 15:04:10,018 INFO o.LocalThumbnail [main] file==>C:\card\images\popcorn.jpg
+2014-12-09 15:04:10,019 INFO o.LocalThumbnail [main] file==>C:\card\images\pot.jpg
+2014-12-09 15:04:10,019 INFO o.LocalThumbnail [main] file==>C:\card\images\presents.jpg
+2014-12-09 15:04:10,019 INFO o.LocalThumbnail [main] file==>C:\card\images\puppies.jpg
+2014-12-09 15:04:10,020 INFO o.LocalThumbnail [main] file==>C:\card\images\rain.jpg
+2014-12-09 15:04:10,020 INFO o.LocalThumbnail [main] file==>C:\card\images\raincoats.jpg
+2014-12-09 15:04:10,021 INFO o.LocalThumbnail [main] file==>C:\card\images\reindeer.jpg
+2014-12-09 15:04:10,021 INFO o.LocalThumbnail [main] file==>C:\card\images\ring.jpg
+2014-12-09 15:04:10,021 INFO o.LocalThumbnail [main] file==>C:\card\images\rocket.jpg
+2014-12-09 15:04:10,022 INFO o.LocalThumbnail [main] file==>C:\card\images\rope.jpg
+2014-12-09 15:04:10,022 INFO o.LocalThumbnail [main] file==>C:\card\images\roses.jpg
+2014-12-09 15:04:10,023 INFO o.LocalThumbnail [main] file==>C:\card\images\rug.jpg
+2014-12-09 15:04:10,023 INFO o.LocalThumbnail [main] file==>C:\card\images\sack.jpg
+2014-12-09 15:04:10,023 INFO o.LocalThumbnail [main] file==>C:\card\images\sad.jpg
+2014-12-09 15:04:10,024 INFO o.LocalThumbnail [main] file==>C:\card\images\sad.png
+2014-12-09 15:04:10,024 INFO o.LocalThumbnail [main] file==>C:\card\images\sailor.jpg
+2014-12-09 15:04:10,024 INFO o.LocalThumbnail [main] file==>C:\card\images\santa.jpg
+2014-12-09 15:04:10,025 INFO o.LocalThumbnail [main] file==>C:\card\images\scarf.jpg
+2014-12-09 15:04:10,025 INFO o.LocalThumbnail [main] file==>C:\card\images\schoolbag.jpg
+2014-12-09 15:04:10,026 INFO o.LocalThumbnail [main] file==>C:\card\images\seal.jpg
+2014-12-09 15:04:10,026 INFO o.LocalThumbnail [main] file==>C:\card\images\see.jpg
+2014-12-09 15:04:10,027 INFO o.LocalThumbnail [main] file==>C:\card\images\seesaw.jpg
+2014-12-09 15:04:10,027 INFO o.LocalThumbnail [main] file==>C:\card\images\seven.jpg
+2014-12-09 15:04:10,027 INFO o.LocalThumbnail [main] file==>C:\card\images\shampoo.jpg
+2014-12-09 15:04:10,028 INFO o.LocalThumbnail [main] file==>C:\card\images\shark.jpg
+2014-12-09 15:04:10,028 INFO o.LocalThumbnail [main] file==>C:\card\images\shell.jpg
+2014-12-09 15:04:10,031 INFO o.LocalThumbnail [main] file==>C:\card\images\shirt.jpg
+2014-12-09 15:04:10,031 INFO o.LocalThumbnail [main] file==>C:\card\images\shoes.jpg
+2014-12-09 15:04:10,032 INFO o.LocalThumbnail [main] file==>C:\card\images\short.jpg
+2014-12-09 15:04:10,032 INFO o.LocalThumbnail [main] file==>C:\card\images\short.png
+2014-12-09 15:04:10,033 INFO o.LocalThumbnail [main] file==>C:\card\images\shoulder.jpg
+2014-12-09 15:04:10,033 INFO o.LocalThumbnail [main] file==>C:\card\images\shoulder.png
+2014-12-09 15:04:10,033 INFO o.LocalThumbnail [main] file==>C:\card\images\shovel.jpg
+2014-12-09 15:04:10,034 INFO o.LocalThumbnail [main] file==>C:\card\images\signs.jpg
+2014-12-09 15:04:10,034 INFO o.LocalThumbnail [main] file==>C:\card\images\sister.jpg
+2014-12-09 15:04:10,035 INFO o.LocalThumbnail [main] file==>C:\card\images\sister.png
+2014-12-09 15:04:10,035 INFO o.LocalThumbnail [main] file==>C:\card\images\six.jpg
+2014-12-09 15:04:10,035 INFO o.LocalThumbnail [main] file==>C:\card\images\six.png
+2014-12-09 15:04:10,036 INFO o.LocalThumbnail [main] file==>C:\card\images\skates.jpg
+2014-12-09 15:04:10,037 INFO o.LocalThumbnail [main] file==>C:\card\images\skirt.jpg
+2014-12-09 15:04:10,037 INFO o.LocalThumbnail [main] file==>C:\card\images\skunks.jpg
+2014-12-09 15:04:10,038 INFO o.LocalThumbnail [main] file==>C:\card\images\sled.jpg
+2014-12-09 15:04:10,038 INFO o.LocalThumbnail [main] file==>C:\card\images\sleds.jpg
+2014-12-09 15:04:10,039 INFO o.LocalThumbnail [main] file==>C:\card\images\slide.jpg
+2014-12-09 15:04:10,039 INFO o.LocalThumbnail [main] file==>C:\card\images\smell.jpg
+2014-12-09 15:04:10,040 INFO o.LocalThumbnail [main] file==>C:\card\images\snow.jpg
+2014-12-09 15:04:10,040 INFO o.LocalThumbnail [main] file==>C:\card\images\snowball.jpg
+2014-12-09 15:04:10,041 INFO o.LocalThumbnail [main] file==>C:\card\images\so-so.jpg
+2014-12-09 15:04:10,041 INFO o.LocalThumbnail [main] file==>C:\card\images\so-so.png
+2014-12-09 15:04:10,042 INFO o.LocalThumbnail [main] file==>C:\card\images\soldiers.jpg
+2014-12-09 15:04:10,042 INFO o.LocalThumbnail [main] file==>C:\card\images\spaghetti.jpg
+2014-12-09 15:04:10,042 INFO o.LocalThumbnail [main] file==>C:\card\images\spoon.jpg
+2014-12-09 15:04:10,043 INFO o.LocalThumbnail [main] file==>C:\card\images\spots.jpg
+2014-12-09 15:04:10,043 INFO o.LocalThumbnail [main] file==>C:\card\images\stairs.jpg
+2014-12-09 15:04:10,045 INFO o.LocalThumbnail [main] file==>C:\card\images\star.jpg
+2014-12-09 15:04:10,045 INFO o.LocalThumbnail [main] file==>C:\card\images\stars.jpg
+2014-12-09 15:04:10,045 INFO o.LocalThumbnail [main] file==>C:\card\images\stockings.jpg
+2014-12-09 15:04:10,047 INFO o.LocalThumbnail [main] file==>C:\card\images\strawberries.jpg
+2014-12-09 15:04:10,047 INFO o.LocalThumbnail [main] file==>C:\card\images\swing.jpg
+2014-12-09 15:04:10,047 INFO o.LocalThumbnail [main] file==>C:\card\images\swings.jpg
+2014-12-09 15:04:10,048 INFO o.LocalThumbnail [main] file==>C:\card\images\table.jpg
+2014-12-09 15:04:10,048 INFO o.LocalThumbnail [main] file==>C:\card\images\tail.jpg
+2014-12-09 15:04:10,049 INFO o.LocalThumbnail [main] file==>C:\card\images\tall.jpg
+2014-12-09 15:04:10,049 INFO o.LocalThumbnail [main] file==>C:\card\images\tall.png
+2014-12-09 15:04:10,050 INFO o.LocalThumbnail [main] file==>C:\card\images\tape.jpg
+2014-12-09 15:04:10,050 INFO o.LocalThumbnail [main] file==>C:\card\images\teddy_bears.jpg
+2014-12-09 15:04:10,051 INFO o.LocalThumbnail [main] file==>C:\card\images\teeth.jpg
+2014-12-09 15:04:10,051 INFO o.LocalThumbnail [main] file==>C:\card\images\telephone.jpg
+2014-12-09 15:04:10,051 INFO o.LocalThumbnail [main] file==>C:\card\images\ten.jpg
+2014-12-09 15:04:10,052 INFO o.LocalThumbnail [main] file==>C:\card\images\thin.jpg
+2014-12-09 15:04:10,052 INFO o.LocalThumbnail [main] file==>C:\card\images\thin.png
+2014-12-09 15:04:10,053 INFO o.LocalThumbnail [main] file==>C:\card\images\three.jpg
+2014-12-09 15:04:10,053 INFO o.LocalThumbnail [main] file==>C:\card\images\three.png
+2014-12-09 15:04:10,054 INFO o.LocalThumbnail [main] file==>C:\card\images\tire.jpg
+2014-12-09 15:04:10,054 INFO o.LocalThumbnail [main] file==>C:\card\images\toe.jpg
+2014-12-09 15:04:10,054 INFO o.LocalThumbnail [main] file==>C:\card\images\toe.png
+2014-12-09 15:04:10,055 INFO o.LocalThumbnail [main] file==>C:\card\images\touch.jpg
+2014-12-09 15:04:10,055 INFO o.LocalThumbnail [main] file==>C:\card\images\towels.jpg
+2014-12-09 15:04:10,056 INFO o.LocalThumbnail [main] file==>C:\card\images\toys.jpg
+2014-12-09 15:04:10,056 INFO o.LocalThumbnail [main] file==>C:\card\images\toy_box.jpg
+2014-12-09 15:04:10,073 INFO o.LocalThumbnail [main] file==>C:\card\images\toy_cars.jpg
+2014-12-09 15:04:10,073 INFO o.LocalThumbnail [main] file==>C:\card\images\train.jpg
+2014-12-09 15:04:10,074 INFO o.LocalThumbnail [main] file==>C:\card\images\trees.jpg
+2014-12-09 15:04:10,074 INFO o.LocalThumbnail [main] file==>C:\card\images\truck.jpg
+2014-12-09 15:04:10,080 INFO o.LocalThumbnail [main] file==>C:\card\images\trucks.jpg
+2014-12-09 15:04:10,080 INFO o.LocalThumbnail [main] file==>C:\card\images\turtle.jpg
+2014-12-09 15:04:10,081 INFO o.LocalThumbnail [main] file==>C:\card\images\tv.jpg
+2014-12-09 15:04:10,081 INFO o.LocalThumbnail [main] file==>C:\card\images\two.jpg
+2014-12-09 15:04:10,081 INFO o.LocalThumbnail [main] file==>C:\card\images\two.png
+2014-12-09 15:04:10,082 INFO o.LocalThumbnail [main] file==>C:\card\images\umbrella.jpg
+2014-12-09 15:04:10,082 INFO o.LocalThumbnail [main] file==>C:\card\images\vegetables.jpg
+2014-12-09 15:04:10,083 INFO o.LocalThumbnail [main] file==>C:\card\images\wagon.jpg
+2014-12-09 15:04:10,083 INFO o.LocalThumbnail [main] file==>C:\card\images\walk.jpg
+2014-12-09 15:04:10,087 INFO o.LocalThumbnail [main] file==>C:\card\images\watch.jpg
+2014-12-09 15:04:10,087 INFO o.LocalThumbnail [main] file==>C:\card\images\water.jpg
+2014-12-09 15:04:10,088 INFO o.LocalThumbnail [main] file==>C:\card\images\waves.jpg
+2014-12-09 15:04:10,088 INFO o.LocalThumbnail [main] file==>C:\card\images\wig.jpg
+2014-12-09 15:04:10,088 INFO o.LocalThumbnail [main] file==>C:\card\images\window.jpg
+2014-12-09 15:04:10,089 INFO o.LocalThumbnail [main] file==>C:\card\images\world.jpg
+2014-12-09 15:04:10,089 INFO o.LocalThumbnail [main] file==>C:\card\images\yarn.jpg
+2014-12-09 15:04:10,089 INFO o.LocalThumbnail [main] file==>C:\card\images\zipper.jpg
+2014-12-09 15:04:10,090 INFO o.LocalThumbnail [main] file==>C:\card\new.jpg
+2014-12-09 15:04:10,090 INFO o.LocalThumbnail [main] file==>C:\card\RCT-681.jpg
+2014-12-09 15:04:10,090 INFO o.LocalThumbnail [main] start selectCover:C:\card\
+2014-12-09 15:04:10,299 INFO o.LocalThumbnail [main] rename C:\card\images\abby.jpg to C:\card\images\cover.jpg
+2014-12-09 15:04:10,302 INFO o.LocalThumbnail [main] C:\card\1125\爱丽\original has cover, skipped
+2014-12-09 15:04:10,306 INFO o.LocalThumbnail [main] rename C:\card\new.jpg to C:\card\cover.jpg
+2014-12-09 15:04:10,307 INFO o.LocalThumbnail [main] start originalthumb:C:\card\
+2014-12-09 15:04:11,474 INFO o.LocalThumbnail [main] C:\card\images\imgsearch-1186837297.jpg:0.81:478632
+2014-12-09 15:04:12,034 INFO o.LocalThumbnail [main] C:\card\images\imgsearch-1814361206.jpg:0.71:368544
+2014-12-09 15:04:12,543 INFO o.LocalThumbnail [main] C:\card\images\imgsearch-1814361206.jpg:0.80:441953
+2014-12-09 15:04:13,128 INFO o.LocalThumbnail [main] C:\card\images\imgsearch-1814361206.jpg:0.89:519271
+2014-12-09 15:04:14,126 INFO o.LocalThumbnail [main] C:\card\images\imgsearch1225306310.jpg:1.45:648224
+2014-12-09 15:04:14,981 INFO o.LocalThumbnail [main] C:\card\images\imgsearch1225306310.jpg:1.36:590668
+2014-12-09 15:04:15,726 INFO o.LocalThumbnail [main] C:\card\images\imgsearch1225306310.jpg:1.27:534861
+2014-12-09 15:04:40,952 INFO o.LocalThumbnail [main] path=C:\card\
+2014-12-09 15:04:40,955 INFO o.LocalThumbnail [main] Dir==>C:\card\1125
+2014-12-09 15:04:40,955 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽
+2014-12-09 15:04:40,956 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\bigthumb
+2014-12-09 15:04:40,957 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\005.jpg
+2014-12-09 15:04:40,957 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0310.jpg
+2014-12-09 15:04:40,957 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a03918.jpg
+2014-12-09 15:04:40,958 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0395.jpg
+2014-12-09 15:04:40,958 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0401.jpg
+2014-12-09 15:04:40,958 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0404.jpg
+2014-12-09 15:04:40,959 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0405.jpg
+2014-12-09 15:04:40,959 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0407.jpg
+2014-12-09 15:04:40,960 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0410.jpg
+2014-12-09 15:04:40,960 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0742.jpg
+2014-12-09 15:04:40,961 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0745.jpg
+2014-12-09 15:04:40,961 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0748.jpg
+2014-12-09 15:04:40,962 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0750.jpg
+2014-12-09 15:04:40,962 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0758.jpg
+2014-12-09 15:04:40,962 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0759.jpg
+2014-12-09 15:04:40,962 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0760.jpg
+2014-12-09 15:04:40,963 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0766.jpg
+2014-12-09 15:04:40,964 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0775.jpg
+2014-12-09 15:04:40,964 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\cover.jpg
+2014-12-09 15:04:40,965 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\original
+2014-12-09 15:04:40,965 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\005.jpg
+2014-12-09 15:04:40,965 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0310.jpg
+2014-12-09 15:04:40,966 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a03918.jpg
+2014-12-09 15:04:40,966 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0395.jpg
+2014-12-09 15:04:40,966 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0401.jpg
+2014-12-09 15:04:40,967 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0404.jpg
+2014-12-09 15:04:40,967 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0405.jpg
+2014-12-09 15:04:40,967 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0407.jpg
+2014-12-09 15:04:40,968 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0410.jpg
+2014-12-09 15:04:40,969 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0742.jpg
+2014-12-09 15:04:40,970 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0745.jpg
+2014-12-09 15:04:40,970 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0748.jpg
+2014-12-09 15:04:40,970 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0750.jpg
+2014-12-09 15:04:40,970 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0758.jpg
+2014-12-09 15:04:40,971 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0759.jpg
+2014-12-09 15:04:40,971 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0760.jpg
+2014-12-09 15:04:40,971 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0766.jpg
+2014-12-09 15:04:40,971 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0775.jpg
+2014-12-09 15:04:40,971 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\cover.jpg
+2014-12-09 15:04:40,971 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\smallthumb
+2014-12-09 15:04:40,972 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\005.jpg
+2014-12-09 15:04:40,972 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0310.jpg
+2014-12-09 15:04:40,972 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a03918.jpg
+2014-12-09 15:04:40,972 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0395.jpg
+2014-12-09 15:04:40,973 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0401.jpg
+2014-12-09 15:04:40,973 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0404.jpg
+2014-12-09 15:04:40,973 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0405.jpg
+2014-12-09 15:04:40,973 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0407.jpg
+2014-12-09 15:04:40,973 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0410.jpg
+2014-12-09 15:04:40,973 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0742.jpg
+2014-12-09 15:04:40,974 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0745.jpg
+2014-12-09 15:04:40,974 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0748.jpg
+2014-12-09 15:04:40,974 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0750.jpg
+2014-12-09 15:04:40,974 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0758.jpg
+2014-12-09 15:04:40,974 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0759.jpg
+2014-12-09 15:04:40,975 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0760.jpg
+2014-12-09 15:04:40,975 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0766.jpg
+2014-12-09 15:04:40,975 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0775.jpg
+2014-12-09 15:04:40,975 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\cover.jpg
+2014-12-09 15:04:40,976 INFO o.LocalThumbnail [main] start selectCover:C:\card\
+2014-12-09 15:04:40,989 INFO o.LocalThumbnail [main] C:\card\1125\爱丽\original has cover, skipped
+2014-12-09 15:04:40,989 INFO o.LocalThumbnail [main] start originalthumb:C:\card\
+2014-12-09 15:04:40,993 INFO o.LocalThumbnail [main] start bigthumb:C:\card\
+2014-12-09 15:04:40,998 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\005.jpg exist,skipped
+2014-12-09 15:04:40,998 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0310.jpg exist,skipped
+2014-12-09 15:04:40,998 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a03918.jpg exist,skipped
+2014-12-09 15:04:40,999 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0395.jpg exist,skipped
+2014-12-09 15:04:40,999 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0401.jpg exist,skipped
+2014-12-09 15:04:40,999 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0404.jpg exist,skipped
+2014-12-09 15:04:41,000 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0405.jpg exist,skipped
+2014-12-09 15:04:41,000 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0407.jpg exist,skipped
+2014-12-09 15:04:41,001 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0410.jpg exist,skipped
+2014-12-09 15:04:41,001 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0742.jpg exist,skipped
+2014-12-09 15:04:41,001 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0745.jpg exist,skipped
+2014-12-09 15:04:41,002 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0748.jpg exist,skipped
+2014-12-09 15:04:41,002 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0750.jpg exist,skipped
+2014-12-09 15:04:41,002 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0758.jpg exist,skipped
+2014-12-09 15:04:41,003 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0759.jpg exist,skipped
+2014-12-09 15:04:41,003 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0760.jpg exist,skipped
+2014-12-09 15:04:41,003 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0766.jpg exist,skipped
+2014-12-09 15:04:41,004 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0775.jpg exist,skipped
+2014-12-09 15:04:41,004 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\cover.jpg exist,skipped
+2014-12-09 15:04:41,004 INFO o.LocalThumbnail [main] start smallthumb:C:\card\
+2014-12-09 15:04:41,008 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\005.jpg exist,skipped
+2014-12-09 15:06:09,422 INFO o.LocalThumbnail [main] path=C:\card\
+2014-12-09 15:06:09,425 INFO o.LocalThumbnail [main] Dir==>C:\card\1125
+2014-12-09 15:06:09,425 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽
+2014-12-09 15:06:09,425 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\bigthumb
+2014-12-09 15:06:09,426 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\005.jpg
+2014-12-09 15:06:09,426 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0310.jpg
+2014-12-09 15:06:09,426 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a03918.jpg
+2014-12-09 15:06:09,427 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0395.jpg
+2014-12-09 15:06:09,427 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0401.jpg
+2014-12-09 15:06:09,427 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0404.jpg
+2014-12-09 15:06:09,428 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0405.jpg
+2014-12-09 15:06:09,428 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0407.jpg
+2014-12-09 15:06:09,429 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0410.jpg
+2014-12-09 15:06:09,430 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0742.jpg
+2014-12-09 15:06:09,430 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0745.jpg
+2014-12-09 15:06:09,430 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0748.jpg
+2014-12-09 15:06:09,431 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0750.jpg
+2014-12-09 15:06:09,431 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0758.jpg
+2014-12-09 15:06:09,431 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0759.jpg
+2014-12-09 15:06:09,432 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0760.jpg
+2014-12-09 15:06:09,433 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0766.jpg
+2014-12-09 15:06:09,433 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0775.jpg
+2014-12-09 15:06:09,433 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\cover.jpg
+2014-12-09 15:06:09,434 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\original
+2014-12-09 15:06:09,434 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\005.jpg
+2014-12-09 15:06:09,435 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0310.jpg
+2014-12-09 15:06:09,435 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a03918.jpg
+2014-12-09 15:06:09,435 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0395.jpg
+2014-12-09 15:06:09,436 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0401.jpg
+2014-12-09 15:06:09,436 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0404.jpg
+2014-12-09 15:06:09,436 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0405.jpg
+2014-12-09 15:06:09,436 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0407.jpg
+2014-12-09 15:06:09,437 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0410.jpg
+2014-12-09 15:06:09,438 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0742.jpg
+2014-12-09 15:06:09,439 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0745.jpg
+2014-12-09 15:06:09,439 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0748.jpg
+2014-12-09 15:06:09,441 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0750.jpg
+2014-12-09 15:06:09,442 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0758.jpg
+2014-12-09 15:06:09,442 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0759.jpg
+2014-12-09 15:06:09,443 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0760.jpg
+2014-12-09 15:06:09,443 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0766.jpg
+2014-12-09 15:06:09,443 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0775.jpg
+2014-12-09 15:06:09,443 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\cover.jpg
+2014-12-09 15:06:09,444 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\smallthumb
+2014-12-09 15:06:09,444 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\005.jpg
+2014-12-09 15:06:09,444 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0310.jpg
+2014-12-09 15:06:09,444 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a03918.jpg
+2014-12-09 15:06:09,445 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0395.jpg
+2014-12-09 15:06:09,445 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0401.jpg
+2014-12-09 15:06:09,445 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0404.jpg
+2014-12-09 15:06:09,445 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0405.jpg
+2014-12-09 15:06:09,445 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0407.jpg
+2014-12-09 15:06:09,446 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0410.jpg
+2014-12-09 15:06:09,446 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0742.jpg
+2014-12-09 15:06:09,446 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0745.jpg
+2014-12-09 15:06:09,446 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0748.jpg
+2014-12-09 15:06:09,446 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0750.jpg
+2014-12-09 15:06:09,447 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0758.jpg
+2014-12-09 15:06:09,447 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0759.jpg
+2014-12-09 15:06:09,447 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0760.jpg
+2014-12-09 15:06:09,447 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0766.jpg
+2014-12-09 15:06:09,448 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0775.jpg
+2014-12-09 15:06:09,448 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\cover.jpg
+2014-12-09 15:06:09,449 INFO o.LocalThumbnail [main] start selectCover:C:\card\
+2014-12-09 15:06:09,462 INFO o.LocalThumbnail [main] C:\card\1125\爱丽\original has cover, skipped
+2014-12-09 15:06:09,463 INFO o.LocalThumbnail [main] start originalthumb:C:\card\
+2014-12-09 15:06:09,467 INFO o.LocalThumbnail [main] start bigthumb:C:\card\
+2014-12-09 15:06:09,471 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\005.jpg exist,skipped
+2014-12-09 15:06:09,471 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0310.jpg exist,skipped
+2014-12-09 15:06:09,471 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a03918.jpg exist,skipped
+2014-12-09 15:06:09,472 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0395.jpg exist,skipped
+2014-12-09 15:06:09,472 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0401.jpg exist,skipped
+2014-12-09 15:06:09,472 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0404.jpg exist,skipped
+2014-12-09 15:06:09,472 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0405.jpg exist,skipped
+2014-12-09 15:06:09,473 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0407.jpg exist,skipped
+2014-12-09 15:06:09,473 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0410.jpg exist,skipped
+2014-12-09 15:06:09,473 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0742.jpg exist,skipped
+2014-12-09 15:06:09,474 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0745.jpg exist,skipped
+2014-12-09 15:06:09,474 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0748.jpg exist,skipped
+2014-12-09 15:06:09,474 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0750.jpg exist,skipped
+2014-12-09 15:06:09,475 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0758.jpg exist,skipped
+2014-12-09 15:06:09,475 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0759.jpg exist,skipped
+2014-12-09 15:06:09,475 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0760.jpg exist,skipped
+2014-12-09 15:06:09,476 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0766.jpg exist,skipped
+2014-12-09 15:06:09,476 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0775.jpg exist,skipped
+2014-12-09 15:06:09,476 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\cover.jpg exist,skipped
+2014-12-09 15:06:09,477 INFO o.LocalThumbnail [main] start smallthumb:C:\card\
+2014-12-09 15:06:09,481 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\005.jpg exist,skipped
+2014-12-09 15:06:09,724 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0310.jpg exist,skipped
+2014-12-09 15:06:09,851 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a03918.jpg exist,skipped
+2014-12-09 15:06:09,955 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0395.jpg exist,skipped
+2014-12-09 15:06:10,063 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0401.jpg exist,skipped
+2014-12-09 15:06:10,132 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0404.jpg exist,skipped
+2014-12-09 15:06:10,214 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0405.jpg exist,skipped
+2014-12-09 15:06:10,267 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0407.jpg exist,skipped
+2014-12-09 15:06:10,346 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0410.jpg exist,skipped
+2014-12-09 15:06:10,399 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0742.jpg exist,skipped
+2014-12-09 15:06:10,471 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0745.jpg exist,skipped
+2014-12-09 15:06:10,506 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0748.jpg exist,skipped
+2014-12-09 15:06:10,581 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0750.jpg exist,skipped
+2014-12-09 15:06:10,621 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0758.jpg exist,skipped
+2014-12-09 15:06:10,661 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0759.jpg exist,skipped
+2014-12-09 15:06:10,701 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0760.jpg exist,skipped
+2014-12-09 15:06:10,746 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0766.jpg exist,skipped
+2014-12-09 15:06:10,783 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0775.jpg exist,skipped
+2014-12-09 15:06:10,818 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\cover.jpg exist,skipped
+2014-12-09 15:07:37,043 INFO o.LocalThumbnail [main] path=C:\card\
+2014-12-09 15:07:37,046 INFO o.LocalThumbnail [main] Dir==>C:\card\1125
+2014-12-09 15:07:37,046 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽
+2014-12-09 15:07:37,047 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\bigthumb
+2014-12-09 15:07:37,048 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\005.jpg
+2014-12-09 15:07:37,048 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0310.jpg
+2014-12-09 15:07:37,049 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a03918.jpg
+2014-12-09 15:07:37,049 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0395.jpg
+2014-12-09 15:07:37,050 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0401.jpg
+2014-12-09 15:07:37,050 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0404.jpg
+2014-12-09 15:07:37,051 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0405.jpg
+2014-12-09 15:07:37,051 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0407.jpg
+2014-12-09 15:07:37,052 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0410.jpg
+2014-12-09 15:07:37,052 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0742.jpg
+2014-12-09 15:07:37,053 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0745.jpg
+2014-12-09 15:07:37,053 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0748.jpg
+2014-12-09 15:07:37,054 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0750.jpg
+2014-12-09 15:07:37,054 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0758.jpg
+2014-12-09 15:07:37,054 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0759.jpg
+2014-12-09 15:07:37,055 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0760.jpg
+2014-12-09 15:07:37,055 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0766.jpg
+2014-12-09 15:07:37,056 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0775.jpg
+2014-12-09 15:07:37,056 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\cover.jpg
+2014-12-09 15:07:37,056 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\filter
+2014-12-09 15:07:37,057 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\original
+2014-12-09 15:07:37,057 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\005.jpg
+2014-12-09 15:07:37,057 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0310.jpg
+2014-12-09 15:07:37,058 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a03918.jpg
+2014-12-09 15:07:37,059 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0395.jpg
+2014-12-09 15:07:37,060 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0401.jpg
+2014-12-09 15:07:37,060 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0404.jpg
+2014-12-09 15:07:37,061 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0405.jpg
+2014-12-09 15:07:37,061 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0407.jpg
+2014-12-09 15:07:37,062 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0410.jpg
+2014-12-09 15:07:37,063 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0742.jpg
+2014-12-09 15:07:37,064 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0745.jpg
+2014-12-09 15:07:37,064 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0748.jpg
+2014-12-09 15:07:37,064 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0750.jpg
+2014-12-09 15:07:37,065 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0758.jpg
+2014-12-09 15:07:37,066 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0759.jpg
+2014-12-09 15:07:37,066 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0760.jpg
+2014-12-09 15:07:37,067 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0766.jpg
+2014-12-09 15:07:37,067 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0775.jpg
+2014-12-09 15:07:37,067 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\cover.jpg
+2014-12-09 15:07:37,068 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\smallthumb
+2014-12-09 15:07:37,068 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\005.jpg
+2014-12-09 15:07:37,069 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0310.jpg
+2014-12-09 15:07:37,069 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a03918.jpg
+2014-12-09 15:07:37,069 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0395.jpg
+2014-12-09 15:07:37,069 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0401.jpg
+2014-12-09 15:07:37,070 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0404.jpg
+2014-12-09 15:07:37,070 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0405.jpg
+2014-12-09 15:07:37,071 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0407.jpg
+2014-12-09 15:07:37,071 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0410.jpg
+2014-12-09 15:07:37,071 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0742.jpg
+2014-12-09 15:07:37,072 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0745.jpg
+2014-12-09 15:07:37,072 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0748.jpg
+2014-12-09 15:07:37,072 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0750.jpg
+2014-12-09 15:07:37,073 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0758.jpg
+2014-12-09 15:07:37,074 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0759.jpg
+2014-12-09 15:07:37,075 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0760.jpg
+2014-12-09 15:07:37,075 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0766.jpg
+2014-12-09 15:07:37,076 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0775.jpg
+2014-12-09 15:07:37,076 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\cover.jpg
+2014-12-09 15:07:37,077 INFO o.LocalThumbnail [main] start selectCover:C:\card\
+2014-12-09 15:07:37,089 INFO o.LocalThumbnail [main] C:\card\1125\爱丽\original has cover, skipped
+2014-12-09 15:07:37,089 INFO o.LocalThumbnail [main] start originalthumb:C:\card\
+2014-12-09 15:07:37,093 INFO o.LocalThumbnail [main] start bigthumb:C:\card\
+2014-12-09 15:07:37,097 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\005.jpg exist,skipped
+2014-12-09 15:07:37,098 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0310.jpg exist,skipped
+2014-12-09 15:07:37,098 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a03918.jpg exist,skipped
+2014-12-09 15:07:37,098 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0395.jpg exist,skipped
+2014-12-09 15:07:37,099 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0401.jpg exist,skipped
+2014-12-09 15:07:37,099 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0404.jpg exist,skipped
+2014-12-09 15:07:37,099 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0405.jpg exist,skipped
+2014-12-09 15:07:37,100 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0407.jpg exist,skipped
+2014-12-09 15:07:37,100 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0410.jpg exist,skipped
+2014-12-09 15:07:37,100 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0742.jpg exist,skipped
+2014-12-09 15:07:37,100 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0745.jpg exist,skipped
+2014-12-09 15:07:37,101 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0748.jpg exist,skipped
+2014-12-09 15:07:37,101 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0750.jpg exist,skipped
+2014-12-09 15:07:37,102 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0758.jpg exist,skipped
+2014-12-09 15:07:37,102 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0759.jpg exist,skipped
+2014-12-09 15:07:37,102 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0760.jpg exist,skipped
+2014-12-09 15:07:37,102 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0766.jpg exist,skipped
+2014-12-09 15:07:37,103 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0775.jpg exist,skipped
+2014-12-09 15:07:37,103 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\cover.jpg exist,skipped
+2014-12-09 15:07:37,103 INFO o.LocalThumbnail [main] start smallthumb:C:\card\
+2014-12-09 15:07:37,108 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\005.jpg exist,skipped
+2014-12-09 15:07:37,302 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0310.jpg exist,skipped
+2014-12-09 15:07:37,346 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a03918.jpg exist,skipped
+2014-12-09 15:07:37,393 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0395.jpg exist,skipped
+2014-12-09 15:07:37,446 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0401.jpg exist,skipped
+2014-12-09 15:07:37,475 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0404.jpg exist,skipped
+2014-12-09 15:07:37,506 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0405.jpg exist,skipped
+2014-12-09 15:07:37,532 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0407.jpg exist,skipped
+2014-12-09 15:07:37,556 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0410.jpg exist,skipped
+2014-12-09 15:07:37,579 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0742.jpg exist,skipped
+2014-12-09 15:07:37,607 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0745.jpg exist,skipped
+2014-12-09 15:07:37,623 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0748.jpg exist,skipped
+2014-12-09 15:07:37,647 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0750.jpg exist,skipped
+2014-12-09 15:07:37,668 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0758.jpg exist,skipped
+2014-12-09 15:07:37,686 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0759.jpg exist,skipped
+2014-12-09 15:07:37,702 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0760.jpg exist,skipped
+2014-12-09 15:07:37,720 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0766.jpg exist,skipped
+2014-12-09 15:07:37,736 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0775.jpg exist,skipped
+2014-12-09 15:07:37,753 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\cover.jpg exist,skipped
+2014-12-09 15:08:06,837 INFO o.LocalThumbnail [main] path=C:\card\
+2014-12-09 15:08:06,840 INFO o.LocalThumbnail [main] Dir==>C:\card\1125
+2014-12-09 15:08:06,841 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽
+2014-12-09 15:08:06,841 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\bigthumb
+2014-12-09 15:08:06,842 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\005.jpg
+2014-12-09 15:08:06,842 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0310.jpg
+2014-12-09 15:08:06,842 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a03918.jpg
+2014-12-09 15:08:06,843 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0395.jpg
+2014-12-09 15:08:06,843 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0401.jpg
+2014-12-09 15:08:06,843 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0404.jpg
+2014-12-09 15:08:06,843 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0405.jpg
+2014-12-09 15:08:06,844 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0407.jpg
+2014-12-09 15:08:06,844 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0410.jpg
+2014-12-09 15:08:06,844 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0742.jpg
+2014-12-09 15:08:06,845 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0745.jpg
+2014-12-09 15:08:06,845 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0748.jpg
+2014-12-09 15:08:06,845 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0750.jpg
+2014-12-09 15:08:06,846 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0758.jpg
+2014-12-09 15:08:06,846 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0759.jpg
+2014-12-09 15:08:06,846 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0760.jpg
+2014-12-09 15:08:06,846 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0766.jpg
+2014-12-09 15:08:06,847 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0775.jpg
+2014-12-09 15:08:06,847 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\cover.jpg
+2014-12-09 15:08:06,847 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\filter
+2014-12-09 15:08:06,847 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\original
+2014-12-09 15:08:06,848 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\005.jpg
+2014-12-09 15:08:06,848 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0310.jpg
+2014-12-09 15:08:06,848 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a03918.jpg
+2014-12-09 15:08:06,848 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0395.jpg
+2014-12-09 15:08:06,849 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0401.jpg
+2014-12-09 15:08:06,849 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0404.jpg
+2014-12-09 15:08:06,849 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0405.jpg
+2014-12-09 15:08:06,849 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0407.jpg
+2014-12-09 15:08:06,850 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0410.jpg
+2014-12-09 15:08:06,851 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0742.jpg
+2014-12-09 15:08:06,851 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0745.jpg
+2014-12-09 15:08:06,851 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0748.jpg
+2014-12-09 15:08:06,851 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0750.jpg
+2014-12-09 15:08:06,852 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0758.jpg
+2014-12-09 15:08:06,852 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0759.jpg
+2014-12-09 15:08:06,853 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0760.jpg
+2014-12-09 15:08:06,853 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0766.jpg
+2014-12-09 15:08:06,853 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0775.jpg
+2014-12-09 15:08:06,854 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\cover.jpg
+2014-12-09 15:08:06,854 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\smallthumb
+2014-12-09 15:08:06,854 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\005.jpg
+2014-12-09 15:08:06,855 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0310.jpg
+2014-12-09 15:08:06,855 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a03918.jpg
+2014-12-09 15:08:06,855 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0395.jpg
+2014-12-09 15:08:06,856 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0401.jpg
+2014-12-09 15:08:06,856 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0404.jpg
+2014-12-09 15:08:06,856 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0405.jpg
+2014-12-09 15:08:06,856 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0407.jpg
+2014-12-09 15:08:06,856 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0410.jpg
+2014-12-09 15:08:06,857 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0742.jpg
+2014-12-09 15:08:06,857 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0745.jpg
+2014-12-09 15:08:06,857 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0748.jpg
+2014-12-09 15:08:06,857 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0750.jpg
+2014-12-09 15:08:06,858 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0758.jpg
+2014-12-09 15:08:06,858 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0759.jpg
+2014-12-09 15:08:06,858 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0760.jpg
+2014-12-09 15:08:06,858 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0766.jpg
+2014-12-09 15:08:06,858 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0775.jpg
+2014-12-09 15:08:06,859 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\cover.jpg
+2014-12-09 15:08:06,859 INFO o.LocalThumbnail [main] start selectCover:C:\card\
+2014-12-09 15:08:06,873 INFO o.LocalThumbnail [main] C:\card\1125\爱丽\original has cover, skipped
+2014-12-09 15:08:06,874 INFO o.LocalThumbnail [main] start originalthumb:C:\card\
+2014-12-09 15:08:06,878 INFO o.LocalThumbnail [main] start bigthumb:C:\card\
+2014-12-09 15:08:06,881 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\005.jpg exist,skipped
+2014-12-09 15:08:06,881 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0310.jpg exist,skipped
+2014-12-09 15:08:06,882 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a03918.jpg exist,skipped
+2014-12-09 15:08:06,882 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0395.jpg exist,skipped
+2014-12-09 15:08:06,882 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0401.jpg exist,skipped
+2014-12-09 15:08:06,883 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0404.jpg exist,skipped
+2014-12-09 15:08:06,883 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0405.jpg exist,skipped
+2014-12-09 15:08:06,883 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0407.jpg exist,skipped
+2014-12-09 15:08:06,884 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0410.jpg exist,skipped
+2014-12-09 15:08:06,884 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0742.jpg exist,skipped
+2014-12-09 15:08:06,884 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0745.jpg exist,skipped
+2014-12-09 15:08:06,885 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0748.jpg exist,skipped
+2014-12-09 15:08:06,885 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0750.jpg exist,skipped
+2014-12-09 15:08:06,885 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0758.jpg exist,skipped
+2014-12-09 15:08:06,886 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0759.jpg exist,skipped
+2014-12-09 15:08:06,886 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0760.jpg exist,skipped
+2014-12-09 15:08:06,887 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0766.jpg exist,skipped
+2014-12-09 15:08:06,887 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0775.jpg exist,skipped
+2014-12-09 15:08:06,887 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\cover.jpg exist,skipped
+2014-12-09 15:08:06,888 INFO o.LocalThumbnail [main] start smallthumb:C:\card\
+2014-12-09 15:08:06,891 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\005.jpg exist,skipped
+2014-12-09 15:08:07,165 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0310.jpg exist,skipped
+2014-12-09 15:08:07,260 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a03918.jpg exist,skipped
+2014-12-09 15:08:07,364 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0395.jpg exist,skipped
+2014-12-09 15:08:07,463 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0401.jpg exist,skipped
+2014-12-09 15:08:07,522 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0404.jpg exist,skipped
+2014-12-09 15:08:07,605 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0405.jpg exist,skipped
+2014-12-09 15:08:07,644 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0407.jpg exist,skipped
+2014-12-09 15:08:07,715 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0410.jpg exist,skipped
+2014-12-09 15:08:07,768 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0742.jpg exist,skipped
+2014-12-09 15:08:07,839 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0745.jpg exist,skipped
+2014-12-09 15:08:07,875 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0748.jpg exist,skipped
+2014-12-09 15:08:07,945 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0750.jpg exist,skipped
+2014-12-09 15:08:07,995 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0758.jpg exist,skipped
+2014-12-09 15:08:08,037 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0759.jpg exist,skipped
+2014-12-09 15:08:08,081 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0760.jpg exist,skipped
+2014-12-09 15:08:08,126 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0766.jpg exist,skipped
+2014-12-09 15:08:08,168 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0775.jpg exist,skipped
+2014-12-09 15:08:08,212 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\cover.jpg exist,skipped
+2014-12-09 15:08:24,715 INFO o.LocalThumbnail [main] path=C:\card\
+2014-12-09 15:08:24,718 INFO o.LocalThumbnail [main] Dir==>C:\card\1125
+2014-12-09 15:08:24,719 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽
+2014-12-09 15:08:24,720 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\bigthumb
+2014-12-09 15:08:24,720 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\005.jpg
+2014-12-09 15:08:24,720 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0310.jpg
+2014-12-09 15:08:24,720 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a03918.jpg
+2014-12-09 15:08:24,721 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0395.jpg
+2014-12-09 15:08:24,721 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0401.jpg
+2014-12-09 15:08:24,721 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0404.jpg
+2014-12-09 15:08:24,721 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0405.jpg
+2014-12-09 15:08:24,722 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0407.jpg
+2014-12-09 15:08:24,722 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0410.jpg
+2014-12-09 15:08:24,722 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0742.jpg
+2014-12-09 15:08:24,722 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0745.jpg
+2014-12-09 15:08:24,723 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0748.jpg
+2014-12-09 15:08:24,723 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0750.jpg
+2014-12-09 15:08:24,723 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0758.jpg
+2014-12-09 15:08:24,724 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0759.jpg
+2014-12-09 15:08:24,724 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0760.jpg
+2014-12-09 15:08:24,724 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0766.jpg
+2014-12-09 15:08:24,724 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0775.jpg
+2014-12-09 15:08:24,724 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\cover.jpg
+2014-12-09 15:08:24,724 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\filter
+2014-12-09 15:08:24,725 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\005.jpg
+2014-12-09 15:08:24,725 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0310.jpg
+2014-12-09 15:08:24,725 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a03918.jpg
+2014-12-09 15:08:24,725 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0395.jpg
+2014-12-09 15:08:24,726 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0401.jpg
+2014-12-09 15:08:24,726 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0404.jpg
+2014-12-09 15:08:24,726 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0405.jpg
+2014-12-09 15:08:24,726 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0407.jpg
+2014-12-09 15:08:24,726 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0410.jpg
+2014-12-09 15:08:24,727 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0742.jpg
+2014-12-09 15:08:24,727 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0745.jpg
+2014-12-09 15:08:24,727 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0748.jpg
+2014-12-09 15:08:24,727 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0750.jpg
+2014-12-09 15:08:24,727 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0758.jpg
+2014-12-09 15:08:24,730 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0759.jpg
+2014-12-09 15:08:24,730 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0760.jpg
+2014-12-09 15:08:24,730 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0766.jpg
+2014-12-09 15:08:24,731 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\660a0775.jpg
+2014-12-09 15:08:24,731 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filter\cover.jpg
+2014-12-09 15:08:24,731 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\original
+2014-12-09 15:08:24,732 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\005.jpg
+2014-12-09 15:08:24,732 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0310.jpg
+2014-12-09 15:08:24,732 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a03918.jpg
+2014-12-09 15:08:24,732 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0395.jpg
+2014-12-09 15:08:24,733 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0401.jpg
+2014-12-09 15:08:24,733 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0404.jpg
+2014-12-09 15:08:24,733 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0405.jpg
+2014-12-09 15:08:24,733 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0407.jpg
+2014-12-09 15:08:24,734 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0410.jpg
+2014-12-09 15:08:24,734 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0742.jpg
+2014-12-09 15:08:24,734 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0745.jpg
+2014-12-09 15:08:24,734 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0748.jpg
+2014-12-09 15:08:24,734 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0750.jpg
+2014-12-09 15:08:24,735 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0758.jpg
+2014-12-09 15:08:24,735 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0759.jpg
+2014-12-09 15:08:24,736 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0760.jpg
+2014-12-09 15:08:24,736 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0766.jpg
+2014-12-09 15:08:24,737 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0775.jpg
+2014-12-09 15:08:24,737 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\cover.jpg
+2014-12-09 15:08:24,738 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\smallthumb
+2014-12-09 15:08:24,738 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\005.jpg
+2014-12-09 15:08:24,738 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0310.jpg
+2014-12-09 15:08:24,739 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a03918.jpg
+2014-12-09 15:08:24,739 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0395.jpg
+2014-12-09 15:08:24,739 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0401.jpg
+2014-12-09 15:08:24,740 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0404.jpg
+2014-12-09 15:08:24,740 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0405.jpg
+2014-12-09 15:08:24,740 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0407.jpg
+2014-12-09 15:08:24,741 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0410.jpg
+2014-12-09 15:08:24,741 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0742.jpg
+2014-12-09 15:08:24,741 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0745.jpg
+2014-12-09 15:08:24,741 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0748.jpg
+2014-12-09 15:08:24,742 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0750.jpg
+2014-12-09 15:08:24,742 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0758.jpg
+2014-12-09 15:08:24,742 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0759.jpg
+2014-12-09 15:08:24,742 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0760.jpg
+2014-12-09 15:08:24,743 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0766.jpg
+2014-12-09 15:08:24,743 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0775.jpg
+2014-12-09 15:08:24,743 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\cover.jpg
+2014-12-09 15:08:24,743 INFO o.LocalThumbnail [main] start selectCover:C:\card\
+2014-12-09 15:08:24,758 INFO o.LocalThumbnail [main] C:\card\1125\爱丽\original has cover, skipped
+2014-12-09 15:08:24,759 INFO o.LocalThumbnail [main] C:\card\1125\爱丽\filter has cover, skipped
+2014-12-09 15:08:24,759 INFO o.LocalThumbnail [main] start originalthumb:C:\card\
+2014-12-09 15:08:24,784 INFO o.LocalThumbnail [main] start bigthumb:C:\card\
+2014-12-09 15:09:28,011 INFO o.LocalThumbnail [main] path=C:\card\
+2014-12-09 15:09:28,013 INFO o.LocalThumbnail [main] Dir==>C:\card\1125
+2014-12-09 15:09:28,014 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽
+2014-12-09 15:09:28,014 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\bigthumb
+2014-12-09 15:09:28,015 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\005.jpg
+2014-12-09 15:09:28,015 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0310.jpg
+2014-12-09 15:09:28,015 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a03918.jpg
+2014-12-09 15:09:28,016 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0395.jpg
+2014-12-09 15:09:28,016 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0401.jpg
+2014-12-09 15:09:28,016 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0404.jpg
+2014-12-09 15:09:28,017 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0405.jpg
+2014-12-09 15:09:28,017 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0407.jpg
+2014-12-09 15:09:28,018 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0410.jpg
+2014-12-09 15:09:28,018 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0742.jpg
+2014-12-09 15:09:28,019 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0745.jpg
+2014-12-09 15:09:28,019 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0748.jpg
+2014-12-09 15:09:28,019 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0750.jpg
+2014-12-09 15:09:28,020 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0758.jpg
+2014-12-09 15:09:28,020 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0759.jpg
+2014-12-09 15:09:28,020 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0760.jpg
+2014-12-09 15:09:28,021 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0766.jpg
+2014-12-09 15:09:28,021 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0775.jpg
+2014-12-09 15:09:28,021 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\cover.jpg
+2014-12-09 15:09:28,022 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\original
+2014-12-09 15:09:28,022 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\005.jpg
+2014-12-09 15:09:28,022 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0310.jpg
+2014-12-09 15:09:28,023 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a03918.jpg
+2014-12-09 15:09:28,024 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0395.jpg
+2014-12-09 15:09:28,024 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0401.jpg
+2014-12-09 15:09:28,025 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0404.jpg
+2014-12-09 15:09:28,025 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0405.jpg
+2014-12-09 15:09:28,026 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0407.jpg
+2014-12-09 15:09:28,026 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0410.jpg
+2014-12-09 15:09:28,028 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0742.jpg
+2014-12-09 15:09:28,028 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0745.jpg
+2014-12-09 15:09:28,029 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0748.jpg
+2014-12-09 15:09:28,029 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0750.jpg
+2014-12-09 15:09:28,029 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0758.jpg
+2014-12-09 15:09:28,030 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0759.jpg
+2014-12-09 15:09:28,030 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0760.jpg
+2014-12-09 15:09:28,030 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0766.jpg
+2014-12-09 15:09:28,031 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0775.jpg
+2014-12-09 15:09:28,032 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\cover.jpg
+2014-12-09 15:09:28,032 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\smallthumb
+2014-12-09 15:09:28,032 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\005.jpg
+2014-12-09 15:09:28,032 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0310.jpg
+2014-12-09 15:09:28,032 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a03918.jpg
+2014-12-09 15:09:28,033 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0395.jpg
+2014-12-09 15:09:28,033 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0401.jpg
+2014-12-09 15:09:28,033 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0404.jpg
+2014-12-09 15:09:28,033 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0405.jpg
+2014-12-09 15:09:28,034 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0407.jpg
+2014-12-09 15:09:28,034 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0410.jpg
+2014-12-09 15:09:28,034 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0742.jpg
+2014-12-09 15:09:28,034 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0745.jpg
+2014-12-09 15:09:28,034 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0748.jpg
+2014-12-09 15:09:28,034 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0750.jpg
+2014-12-09 15:09:28,035 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0758.jpg
+2014-12-09 15:09:28,035 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0759.jpg
+2014-12-09 15:09:28,035 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0760.jpg
+2014-12-09 15:09:28,035 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0766.jpg
+2014-12-09 15:09:28,035 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0775.jpg
+2014-12-09 15:09:28,036 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\cover.jpg
+2014-12-09 15:09:28,036 INFO o.LocalThumbnail [main] start selectCover:C:\card\
+2014-12-09 15:09:28,049 INFO o.LocalThumbnail [main] C:\card\1125\爱丽\original has cover, skipped
+2014-12-09 15:09:28,050 INFO o.LocalThumbnail [main] start originalthumb:C:\card\
+2014-12-09 15:09:28,054 INFO o.LocalThumbnail [main] start bigthumb:C:\card\
+2014-12-09 15:09:28,057 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\005.jpg exist,skipped
+2014-12-09 15:09:28,057 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0310.jpg exist,skipped
+2014-12-09 15:09:28,057 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a03918.jpg exist,skipped
+2014-12-09 15:09:28,058 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0395.jpg exist,skipped
+2014-12-09 15:09:28,058 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0401.jpg exist,skipped
+2014-12-09 15:09:28,058 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0404.jpg exist,skipped
+2014-12-09 15:09:28,059 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0405.jpg exist,skipped
+2014-12-09 15:09:28,059 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0407.jpg exist,skipped
+2014-12-09 15:09:28,059 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0410.jpg exist,skipped
+2014-12-09 15:09:28,060 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0742.jpg exist,skipped
+2014-12-09 15:09:28,061 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0745.jpg exist,skipped
+2014-12-09 15:09:28,061 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0748.jpg exist,skipped
+2014-12-09 15:09:28,061 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0750.jpg exist,skipped
+2014-12-09 15:09:28,062 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0758.jpg exist,skipped
+2014-12-09 15:09:28,062 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0759.jpg exist,skipped
+2014-12-09 15:09:28,062 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0760.jpg exist,skipped
+2014-12-09 15:09:28,062 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0766.jpg exist,skipped
+2014-12-09 15:09:28,063 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0775.jpg exist,skipped
+2014-12-09 15:09:28,063 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\cover.jpg exist,skipped
+2014-12-09 15:09:28,063 INFO o.LocalThumbnail [main] start smallthumb:C:\card\
+2014-12-09 15:09:28,067 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\005.jpg exist,skipped
+2014-12-09 15:09:28,307 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0310.jpg exist,skipped
+2014-12-09 15:09:28,393 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a03918.jpg exist,skipped
+2014-12-09 15:09:28,459 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0395.jpg exist,skipped
+2014-12-09 15:09:28,577 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0401.jpg exist,skipped
+2014-12-09 15:09:28,617 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0404.jpg exist,skipped
+2014-12-09 15:09:28,683 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0405.jpg exist,skipped
+2014-12-09 15:09:28,721 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0407.jpg exist,skipped
+2014-12-09 15:09:28,794 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0410.jpg exist,skipped
+2014-12-09 15:09:28,854 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0742.jpg exist,skipped
+2014-12-09 15:09:28,931 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0745.jpg exist,skipped
+2014-12-09 15:09:28,972 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0748.jpg exist,skipped
+2014-12-09 15:09:29,051 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0750.jpg exist,skipped
+2014-12-09 15:09:29,103 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0758.jpg exist,skipped
+2014-12-09 15:09:29,156 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0759.jpg exist,skipped
+2014-12-09 15:09:29,193 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0760.jpg exist,skipped
+2014-12-09 15:09:29,241 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0766.jpg exist,skipped
+2014-12-09 15:09:29,280 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0775.jpg exist,skipped
+2014-12-09 15:09:29,314 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\cover.jpg exist,skipped
+2014-12-09 15:09:37,181 INFO o.LocalThumbnail [main] path=C:\card\
+2014-12-09 15:09:37,183 INFO o.LocalThumbnail [main] Dir==>C:\card\1125
+2014-12-09 15:09:37,184 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽
+2014-12-09 15:09:37,184 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\bigthumb
+2014-12-09 15:09:37,185 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\005.jpg
+2014-12-09 15:09:37,185 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0310.jpg
+2014-12-09 15:09:37,185 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a03918.jpg
+2014-12-09 15:09:37,185 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0395.jpg
+2014-12-09 15:09:37,185 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0401.jpg
+2014-12-09 15:09:37,186 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0404.jpg
+2014-12-09 15:09:37,186 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0405.jpg
+2014-12-09 15:09:37,186 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0407.jpg
+2014-12-09 15:09:37,187 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0410.jpg
+2014-12-09 15:09:37,187 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0742.jpg
+2014-12-09 15:09:37,187 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0745.jpg
+2014-12-09 15:09:37,188 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0748.jpg
+2014-12-09 15:09:37,188 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0750.jpg
+2014-12-09 15:09:37,188 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0758.jpg
+2014-12-09 15:09:37,188 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0759.jpg
+2014-12-09 15:09:37,189 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0760.jpg
+2014-12-09 15:09:37,189 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0766.jpg
+2014-12-09 15:09:37,189 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\660a0775.jpg
+2014-12-09 15:09:37,189 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\bigthumb\cover.jpg
+2014-12-09 15:09:37,190 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\filterthumb
+2014-12-09 15:09:37,190 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\005.jpg
+2014-12-09 15:09:37,190 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0310.jpg
+2014-12-09 15:09:37,190 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a03918.jpg
+2014-12-09 15:09:37,191 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0395.jpg
+2014-12-09 15:09:37,191 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0401.jpg
+2014-12-09 15:09:37,191 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0404.jpg
+2014-12-09 15:09:37,191 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0405.jpg
+2014-12-09 15:09:37,191 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0407.jpg
+2014-12-09 15:09:37,192 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0410.jpg
+2014-12-09 15:09:37,194 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0742.jpg
+2014-12-09 15:09:37,194 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0745.jpg
+2014-12-09 15:09:37,194 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0748.jpg
+2014-12-09 15:09:37,195 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0750.jpg
+2014-12-09 15:09:37,195 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0758.jpg
+2014-12-09 15:09:37,197 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0759.jpg
+2014-12-09 15:09:37,198 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0760.jpg
+2014-12-09 15:09:37,198 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0766.jpg
+2014-12-09 15:09:37,198 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\660a0775.jpg
+2014-12-09 15:09:37,198 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\filterthumb\cover.jpg
+2014-12-09 15:09:37,199 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\original
+2014-12-09 15:09:37,199 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\005.jpg
+2014-12-09 15:09:37,200 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0310.jpg
+2014-12-09 15:09:37,200 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a03918.jpg
+2014-12-09 15:09:37,200 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0395.jpg
+2014-12-09 15:09:37,200 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0401.jpg
+2014-12-09 15:09:37,200 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0404.jpg
+2014-12-09 15:09:37,201 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0405.jpg
+2014-12-09 15:09:37,201 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0407.jpg
+2014-12-09 15:09:37,201 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0410.jpg
+2014-12-09 15:09:37,201 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0742.jpg
+2014-12-09 15:09:37,202 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0745.jpg
+2014-12-09 15:09:37,202 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0748.jpg
+2014-12-09 15:09:37,202 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0750.jpg
+2014-12-09 15:09:37,202 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0758.jpg
+2014-12-09 15:09:37,202 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0759.jpg
+2014-12-09 15:09:37,203 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0760.jpg
+2014-12-09 15:09:37,203 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0766.jpg
+2014-12-09 15:09:37,203 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\660a0775.jpg
+2014-12-09 15:09:37,203 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\original\cover.jpg
+2014-12-09 15:09:37,203 INFO o.LocalThumbnail [main] Dir==>C:\card\1125\爱丽\smallthumb
+2014-12-09 15:09:37,204 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\005.jpg
+2014-12-09 15:09:37,204 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0310.jpg
+2014-12-09 15:09:37,204 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a03918.jpg
+2014-12-09 15:09:37,204 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0395.jpg
+2014-12-09 15:09:37,204 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0401.jpg
+2014-12-09 15:09:37,205 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0404.jpg
+2014-12-09 15:09:37,205 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0405.jpg
+2014-12-09 15:09:37,205 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0407.jpg
+2014-12-09 15:09:37,205 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0410.jpg
+2014-12-09 15:09:37,205 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0742.jpg
+2014-12-09 15:09:37,206 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0745.jpg
+2014-12-09 15:09:37,206 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0748.jpg
+2014-12-09 15:09:37,206 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0750.jpg
+2014-12-09 15:09:37,206 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0758.jpg
+2014-12-09 15:09:37,207 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0759.jpg
+2014-12-09 15:09:37,207 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0760.jpg
+2014-12-09 15:09:37,207 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0766.jpg
+2014-12-09 15:09:37,207 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\660a0775.jpg
+2014-12-09 15:09:37,208 INFO o.LocalThumbnail [main] file==>C:\card\1125\爱丽\smallthumb\cover.jpg
+2014-12-09 15:09:37,208 INFO o.LocalThumbnail [main] start selectCover:C:\card\
+2014-12-09 15:09:37,222 INFO o.LocalThumbnail [main] C:\card\1125\爱丽\original has cover, skipped
+2014-12-09 15:09:37,222 INFO o.LocalThumbnail [main] start originalthumb:C:\card\
+2014-12-09 15:09:37,229 INFO o.LocalThumbnail [main] start bigthumb:C:\card\
+2014-12-09 15:09:37,237 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\005.jpg exist,skipped
+2014-12-09 15:09:37,238 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0310.jpg exist,skipped
+2014-12-09 15:09:37,238 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a03918.jpg exist,skipped
+2014-12-09 15:09:37,239 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0395.jpg exist,skipped
+2014-12-09 15:09:37,239 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0401.jpg exist,skipped
+2014-12-09 15:09:37,240 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0404.jpg exist,skipped
+2014-12-09 15:09:37,241 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0405.jpg exist,skipped
+2014-12-09 15:09:37,241 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0407.jpg exist,skipped
+2014-12-09 15:09:37,241 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0410.jpg exist,skipped
+2014-12-09 15:09:37,242 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0742.jpg exist,skipped
+2014-12-09 15:09:37,242 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0745.jpg exist,skipped
+2014-12-09 15:09:37,243 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0748.jpg exist,skipped
+2014-12-09 15:09:37,243 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0750.jpg exist,skipped
+2014-12-09 15:09:37,244 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0758.jpg exist,skipped
+2014-12-09 15:09:37,244 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0759.jpg exist,skipped
+2014-12-09 15:09:37,245 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0760.jpg exist,skipped
+2014-12-09 15:09:37,245 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0766.jpg exist,skipped
+2014-12-09 15:09:37,245 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\660a0775.jpg exist,skipped
+2014-12-09 15:09:37,247 INFO o.LocalThumbnail [main] bigthumb:C:\card\1125\爱丽\bigthumb\cover.jpg exist,skipped
+2014-12-09 15:09:37,247 INFO o.LocalThumbnail [main] start smallthumb:C:\card\
+2014-12-09 15:09:37,254 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\005.jpg exist,skipped
+2014-12-09 15:09:37,255 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0310.jpg exist,skipped
+2014-12-09 15:09:37,255 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a03918.jpg exist,skipped
+2014-12-09 15:09:37,256 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0395.jpg exist,skipped
+2014-12-09 15:09:37,257 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0401.jpg exist,skipped
+2014-12-09 15:09:37,257 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0404.jpg exist,skipped
+2014-12-09 15:09:37,257 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0405.jpg exist,skipped
+2014-12-09 15:09:37,258 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0407.jpg exist,skipped
+2014-12-09 15:09:37,258 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0410.jpg exist,skipped
+2014-12-09 15:09:37,258 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0742.jpg exist,skipped
+2014-12-09 15:09:37,259 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0745.jpg exist,skipped
+2014-12-09 15:09:37,259 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0748.jpg exist,skipped
+2014-12-09 15:09:37,260 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0750.jpg exist,skipped
+2014-12-09 15:09:37,260 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0758.jpg exist,skipped
+2014-12-09 15:09:37,260 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0759.jpg exist,skipped
+2014-12-09 15:09:37,261 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0760.jpg exist,skipped
+2014-12-09 15:09:37,261 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0766.jpg exist,skipped
+2014-12-09 15:09:37,262 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\660a0775.jpg exist,skipped
+2014-12-09 15:09:37,262 INFO o.LocalThumbnail [main] smallthumb:C:\card\1125\爱丽\smallthumb\cover.jpg exist,skipped

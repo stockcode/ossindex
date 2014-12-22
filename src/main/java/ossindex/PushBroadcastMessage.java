@@ -1,17 +1,18 @@
 package ossindex;
 
-import com.baidu.yun.channel.auth.ChannelKeyPair;
-import com.baidu.yun.channel.client.BaiduChannelClient;
-import com.baidu.yun.channel.exception.ChannelClientException;
-import com.baidu.yun.channel.exception.ChannelServerException;
-import com.baidu.yun.channel.model.PushBroadcastMessageRequest;
-import com.baidu.yun.channel.model.PushBroadcastMessageResponse;
-import com.baidu.yun.core.log.YunLogEvent;
-import com.baidu.yun.core.log.YunLogHandler;
+import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import umeng.android.AndroidBroadcast;
+
+import java.util.Date;
 
 public class PushBroadcastMessage {
+
+    private String appkey = "548fe31dfd98c542620004d2";
+    private String masterSecret = "ixr9fjeipp7vjm4giya2njngtrn1irr2";
+    private String timestamp = null;
+    private String validationToken = null;
 
     private static Logger logger = LogManager.getLogger(PushBroadcastMessage.class.getName());
 
@@ -20,53 +21,36 @@ public class PushBroadcastMessage {
         pushBroadcastMessage.send("每日更新", "套图更新了,速来围观");
     }
 
+    public PushBroadcastMessage() {
+        timestamp = Integer.toString((int)(System.currentTimeMillis() / 1000));
+        // Generate MD5 of appkey, masterSecret and timestamp as validation_token
+        validationToken = DigestUtils.md5Hex(appkey.toLowerCase() + masterSecret.toLowerCase() + timestamp);
+    }
+
     public void send(String title, String content) {
-    /*
-     * @brief	推送广播消息(消息类型为透传，由开发方应用自己来解析消息内容)
-     * 			message_type = 0 (默认为0)
-     */
 
-        // 1. 设置developer平台的ApiKey/SecretKey
-        String apiKey = "6NxlGErC78G5tGB2aWPblquO";
-        String secretKey = "1AyvQY3WKjYKxGc1Rf2fubz4xAGbZ2UH";
-        ChannelKeyPair pair = new ChannelKeyPair(apiKey, secretKey);
-
-        // 2. 创建BaiduChannelClient对象实例
-        BaiduChannelClient channelClient = new BaiduChannelClient(pair);
-
-        // 3. 若要了解交互细节，请注册YunLogHandler类
-        channelClient.setChannelLogHandler(new YunLogHandler() {
-            public void onHandle(YunLogEvent event) {
-                System.out.println(event.getMessage());
-            }
-        });
-
+        AndroidBroadcast broadcast = new AndroidBroadcast();
         try {
-
-// 4. 创建请求类对象
-            PushBroadcastMessageRequest request = new PushBroadcastMessageRequest();
-            request.setDeviceType(3);	// device_type => 1: web 2: pc 3:android 4:ios 5:wp
-
-            request.setMessageType(1);
-            request.setMessage("{\"title\":\"" + title + "\",\"description\":\"" + content + "\"}");
-
-// 5. 调用pushMessage接口
-            PushBroadcastMessageResponse response = channelClient.pushBroadcastMessage(request);
-
-// 6. 认证推送成功
-            logger.info("接收数量 : " + response.getSuccessAmount());
-
-        } catch (ChannelClientException e) {
-// 处理客户端错误异常
-            logger.info(e.getMessage());
-        } catch (ChannelServerException e) {
-// 处理服务端错误异常
-            logger.info(
-                    String.format("request_id: %d, error_code: %d, error_message: %s",
-                            e.getRequestId(), e.getErrorCode(), e.getErrorMsg()
-                    )
-            );
+            broadcast.setPredefinedKeyValue("appkey", this.appkey);
+            broadcast.setPredefinedKeyValue("timestamp", this.timestamp);
+            broadcast.setPredefinedKeyValue("validation_token", this.validationToken);
+            broadcast.setPredefinedKeyValue("ticker", "丽图：套图更新了");
+            broadcast.setPredefinedKeyValue("title",  title);
+            broadcast.setPredefinedKeyValue("text",   content);
+            broadcast.setPredefinedKeyValue("after_open", "go_activity");
+            broadcast.setPredefinedKeyValue("activity", "cn.nit.beauty.ui.SplashActivity");
+            broadcast.setPredefinedKeyValue("display_type", "notification");
+            // For how to register a test device, please see the developer doc.
+            broadcast.setPredefinedKeyValue("production_mode", "true");
+            // Set customized fields
+            broadcast.setExtraField("isDaily", "true");
+            Date date = new Date();
+            broadcast.setPredefinedKeyValue("description", date.toString());
+            broadcast.send();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
     }
 
 }
