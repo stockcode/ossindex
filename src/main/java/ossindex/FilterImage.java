@@ -17,17 +17,19 @@ public class FilterImage {
 
     public static void main(String[] args) throws IOException {
 
-        File inFile = new File("D:\\Temp\\1.jpg");
-        File outFile = new File("d:\\temp\\2.jpg");
+        File inFile = new File("c:\\Temp\\1.jpg");
+        File outFile = new File("c:\\temp\\2.jpg");
 
 
         BufferedImage in = ImageIO.read(inFile);
 
-        BufferedImage dst = new BufferedImage(in.getWidth(), in.getHeight(), BufferedImage.TYPE_INT_ARGB);
+        BufferedImage dst = new BufferedImage(in.getWidth(), in.getHeight(), BufferedImage.TYPE_INT_RGB);
 
 
         BoxBlurFilter boxBlurFilter = new BoxBlurFilter();
-        boxBlurFilter.setHRadius(15);
+
+        boxBlurFilter.setRadius(10);
+        boxBlurFilter.setIterations(3);
 
         boxBlurFilter.filter(in, dst);
 
@@ -40,16 +42,18 @@ public class FilterImage {
 
         File outFile = new File(srcFile.replaceAll("smallthumb", "filterthumb"));
 
-        if (outFile.exists()) return;
+        //if (outFile.exists()) return;
 
         if (!outFile.getParentFile().exists()) FileUtils.forceMkdir(outFile.getParentFile());
 
         BufferedImage in = ImageIO.read(inFile);
 
-        BufferedImage dst = new BufferedImage(in.getWidth(), in.getHeight(), BufferedImage.TYPE_INT_ARGB);
+        BufferedImage dst = new BufferedImage(in.getWidth(), in.getHeight(), BufferedImage.TYPE_INT_RGB);
 
 
-        BufferedImageOp boxBlurFilter = new BoxBlurFilter();
+        BoxBlurFilter boxBlurFilter = new BoxBlurFilter();
+        boxBlurFilter.setRadius(10);
+        boxBlurFilter.setIterations(3);
 
         boxBlurFilter.filter(in, dst);
 

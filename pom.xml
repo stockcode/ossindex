@@ -84,10 +84,5 @@
             <artifactId>httpclient</artifactId>
             <version>4.3.6</version>
         </dependency>
-        <dependency>
-            <groupId>com.google.android</groupId>
-            <artifactId>android</artifactId>
-            <version>4.0.1.2</version>
-        </dependency>
     </dependencies>
 </project>
