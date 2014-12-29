@@ -2,10 +2,13 @@ package ossindex;
 
 import net.coobird.thumbnailator.Thumbnails;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.text.DecimalFormat;
 import java.util.*;
 
@@ -29,13 +32,13 @@ public class LocalThumbnail {
 
         ChangeName(new File(path));
 
-        selectCover(path);
+        //selectCover(path);
 
-        thumbOrignial(path);
+        //thumbOrignial(path);
 
-        thumbBig(path);
+        //thumbBig(path);
 
-        thumbSmall(path);
+        //thumbSmall(path);
 }
 
     private static void selectCover(String path) throws IOException {
@@ -94,7 +97,8 @@ public class LocalThumbnail {
         for (File f : flist) {
             if (f.isDirectory()) {
                 //这里将列出所有的文件夹
-                logger.info("Dir==>" + f.getAbsolutePath());
+                //logger.info("Dir==>" + f.getAbsolutePath());
+
                 if (f.getPath().contains(" ")) {
                     File dst = new File(f.getPath().replaceAll(" ", "_"));
                     f.renameTo(dst) ;
@@ -102,17 +106,28 @@ public class LocalThumbnail {
                 }
                 ChangeName(f);
             } else {
+
                 //这里将列出所有的文件
-                logger.info("file==>" + f.getAbsolutePath());
-                if (f.getPath().contains(" ")) {
-                    File dst = new File(f.getPath().replaceAll(" ", "_"));
-                    f.renameTo(dst) ;
+
+
+                if (f.getAbsolutePath().toLowerCase().endsWith("cover.jpg")) {
+                    continue;
                 }
 
-                if (f.getPath().contains("vip")) {
-                    File dst = new File(f.getPath().replaceAll("vip", ""));
-                    f.renameTo(dst) ;
+
+
+                String dst = f.getParent() + File.separator + generateShortUuid() + ".jpg";
+                //dst = dst.replaceAll(" ", "_");
+
+                logger.info(f.getAbsolutePath() + "==>" + dst);
+
+                Path source = f.toPath();
+                try {
+                    Files.move(source, source.resolveSibling(dst));
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
+
             }
         }
     }
@@ -288,5 +303,24 @@ public class LocalThumbnail {
         }
     }
 
+    public static String[] chars = new String[] { "a", "b", "c", "d", "e", "f",
+            "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",
+            "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5",
+            "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "G", "H", "I",
+            "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V",
+            "W", "X", "Y", "Z" };
+
+
+    public static String generateShortUuid() {
+        StringBuffer shortBuffer = new StringBuffer();
+        String uuid = UUID.randomUUID().toString().replace("-", "");
+        for (int i = 0; i < 8; i++) {
+            String str = uuid.substring(i * 4, i * 4 + 4);
+            int x = Integer.parseInt(str, 16);
+            shortBuffer.append(chars[x % 0x3E]);
+        }
+        return shortBuffer.toString();
+
+    }
 
 }
