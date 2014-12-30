@@ -30,15 +30,15 @@ public class LocalThumbnail {
 
         logger.info("path=" + path);
 
-        ChangeName(new File(path));
+        //ChangeName(new File(path));
 
-        //selectCover(path);
+        selectCover(path);
 
-        //thumbOrignial(path);
+        thumbOrignial(path);
 
-        //thumbBig(path);
+        thumbBig(path);
 
-        //thumbSmall(path);
+        thumbSmall(path);
 }
 
     private static void selectCover(String path) throws IOException {
