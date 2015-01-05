@@ -6,7 +6,6 @@ public class ImageInfo {
 
 	private String key = "";
 	private String title = "";
-	private String url = "";
     private Date updated;
 
     public String getKey() {
@@ -23,14 +22,6 @@ public class ImageInfo {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
     }
 
     public Date getUpdated() {

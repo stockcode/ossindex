@@ -113,13 +113,13 @@ public class StartIndex {
                         imageInfos.setObjectId(objectId);
                         
                         for(OSSObjectSummary summary : listing.getObjectSummaries()) {
-                            if (!summary.getKey().endsWith("jpg")) continue;
+                            String key = summary.getKey();
+                            if (!key.endsWith("jpg")) continue;
 
-                            if (summary.getKey().contains("cover")) continue;
+                            if (key.contains("cover")) continue;
 
                             ImageInfo imageInfo = new ImageInfo();
-                            imageInfo.setKey(summary.getKey());
-                            imageInfo.setUrl(summary.getKey());
+                            imageInfo.setKey(key.substring(key.lastIndexOf("/")+1, key.length()));
                             imageInfos.getResults().add(imageInfo);
                             date = df.format(summary.getLastModified());
                         }
@@ -129,27 +129,7 @@ public class StartIndex {
 
                         System.err.println(str);
 
-                        uploadIndex(bucketName, client, str, listFolder + "smallthumb/index.json");
-
-                        listObjectsRequest.setPrefix(listFolder + "bigthumb/");
-                        listing = client.listObjects(listObjectsRequest);
-                        imageInfos = new ImageInfos();
-
-                        for(OSSObjectSummary summary : listing.getObjectSummaries()) {
-                            if (!summary.getKey().endsWith("jpg")) continue;
-
-                            ImageInfo imageInfo = new ImageInfo();
-                            imageInfo.setKey(summary.getKey());
-                            imageInfo.setUrl(summary.getKey());
-                            imageInfos.getResults().add(imageInfo);
-                        }
-
-
-                        str = gson.toJson(imageInfos);
-
-                        System.err.println(str);
-
-                        uploadIndex(bucketName, client, str, listFolder + "bigthumb/index.json");
+                        uploadIndex(bucketName, client, str, listFolder + "index.json");
 
                         urls.add(listFolder + ":" + date + ":" + objectId);
 
