@@ -30,7 +30,7 @@ public class LocalThumbnail {
 
         logger.info("path=" + path);
 
-        //ChangeName(new File(path));
+        ChangeName(new File(path));
 
         selectCover(path);
 
@@ -111,6 +111,11 @@ public class LocalThumbnail {
 
 
                 if (f.getAbsolutePath().toLowerCase().endsWith("cover.jpg")) {
+                    continue;
+                }
+
+                if (f.getAbsolutePath().contains("thumb") || f.getAbsolutePath().contains("original")) {
+                    logger.info(f.getAbsolutePath() + " has exists, skipped");
                     continue;
                 }
 

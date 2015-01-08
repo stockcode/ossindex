@@ -3,6 +3,8 @@ package ossindex;
 import com.jhlabs.image.*;
 import net.coobird.thumbnailator.util.BufferedImages;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -14,6 +16,8 @@ import java.io.IOException;
  * Created by vicky on 2014/12/9.
  */
 public class FilterImage {
+
+    private static Logger logger = LogManager.getLogger(FilterImage.class.getName());
 
     public static void main(String[] args) throws IOException {
 
@@ -42,7 +46,10 @@ public class FilterImage {
 
         File outFile = new File(srcFile.replaceAll("smallthumb", "filterthumb"));
 
-        //if (outFile.exists()) return;
+        if (outFile.exists()) {
+            logger.info(outFile.getAbsoluteFile() + "has existed, skipped");
+            return;
+        }
 
         if (!outFile.getParentFile().exists()) FileUtils.forceMkdir(outFile.getParentFile());
 
@@ -58,5 +65,7 @@ public class FilterImage {
         boxBlurFilter.filter(in, dst);
 
         ImageIO.write(dst, "jpg", outFile);
+
+        logger.info(srcFile + "has filtered");
     }
 }

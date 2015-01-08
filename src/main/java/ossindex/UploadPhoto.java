@@ -4,19 +4,17 @@ import com.aliyun.openservices.oss.OSSClient;
 import com.aliyun.openservices.oss.model.ObjectMetadata;
 import com.aliyun.openservices.oss.model.PutObjectResult;
 import com.mashape.unirest.http.exceptions.UnirestException;
-
-import net.coobird.thumbnailator.Thumbnails;
-
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONException;
 
-import java.io.*;
-import java.util.Iterator;
-import java.util.UUID;
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Random;
 
 /**
  * Created by Administrator on 13-7-11.
@@ -33,6 +31,8 @@ public class UploadPhoto {
     private static Logger logger = LogManager.getLogger(UploadPhoto.class.getName());
 
     public static void main(String[] args) throws IOException, UnirestException, JSONException {
+
+
         path = args[0];
 
         //path = "c:\\photo";
@@ -46,25 +46,27 @@ public class UploadPhoto {
 
         PushBroadcastMessage pushBroadcastMessage = new PushBroadcastMessage();
         pushBroadcastMessage.send("每日更新", "套图更新了,速来围观");
-}
+    }
 
     private static void Start(File file) throws IOException {
+        Random rd = new Random();
+
         File regions[] = file.listFiles();
 
-        for(File region : regions) {
+        for (File region : regions) {
             File categories[] = region.listFiles();
 
-            for(File category : categories) {
-                File folders[] = category.listFiles();
-                if (folders != null && folders.length > 0) {
-                    StartEnum(folders[0]);
-                    FileUtils.forceDelete(folders[0]);
-                    break;
-                }
+            File category = categories[rd.nextInt(categories.length)];
+
+            File folders[] = category.listFiles();
+
+            if (folders != null && folders.length > 0) {
+                int index = rd.nextInt(folders.length);
+                StartEnum(folders[index]);
+                FileUtils.forceDelete(folders[index]);
             }
-
-
         }
+
 
     }
 
