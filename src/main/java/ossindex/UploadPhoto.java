@@ -24,7 +24,7 @@ public class UploadPhoto {
     private static String accessKeyId = "hauXgt6si5cgU39B";
     private static String accessKeySecret = "W8pEoUO4h2oIkeAAF1vHdvgdbJXvXp";
     private static String bucketName = "beauty-photo";
-    private static String path;
+    private static String path, filterDir;
     // 初始化一个OSSClient
     private static OSSClient client = new OSSClient(accessKeyId, accessKeySecret);
 
@@ -35,9 +35,13 @@ public class UploadPhoto {
 
         path = args[0];
 
+        filterDir = args[1];
+
         //path = "c:\\photo";
 
         logger.info("path=" + path);
+
+        logger.info("filterDir=" + filterDir);
 
         Start(new File(path));
         StartIndex startIndex = new StartIndex();
@@ -54,6 +58,7 @@ public class UploadPhoto {
         File regions[] = file.listFiles();
 
         for (File region : regions) {
+            if (filterDir.indexOf(region.getName())> -1 ) continue;
             File categories[] = region.listFiles();
 
             File category = categories[rd.nextInt(categories.length)];
