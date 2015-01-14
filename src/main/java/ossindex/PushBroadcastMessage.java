@@ -18,7 +18,7 @@ public class PushBroadcastMessage {
 
 	public static void main(String[] args) {
         PushBroadcastMessage pushBroadcastMessage = new PushBroadcastMessage();
-        pushBroadcastMessage.send("每日更新", "套图更新了,速来围观");
+        pushBroadcastMessage.sendMessage("update");
     }
 
     public PushBroadcastMessage() {
@@ -27,7 +27,7 @@ public class PushBroadcastMessage {
         validationToken = DigestUtils.md5Hex(appkey.toLowerCase() + masterSecret.toLowerCase() + timestamp);
     }
 
-    public void send(String title, String content) {
+    public void sendNotification(String title, String content) {
 
         AndroidBroadcast broadcast = new AndroidBroadcast();
         try {
@@ -46,6 +46,28 @@ public class PushBroadcastMessage {
             broadcast.setExtraField("isDaily", "true");
             Date date = new Date();
             broadcast.setPredefinedKeyValue("description", date.toString());
+            broadcast.send();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void sendMessage(String message) {
+
+        AndroidBroadcast broadcast = new AndroidBroadcast();
+        try {
+            broadcast.setPredefinedKeyValue("appkey", this.appkey);
+            broadcast.setPredefinedKeyValue("timestamp", this.timestamp);
+            broadcast.setPredefinedKeyValue("validation_token", this.validationToken);
+            broadcast.setPredefinedKeyValue("custom",  message);
+            broadcast.setPredefinedKeyValue("after_open", "go_activity");
+            broadcast.setPredefinedKeyValue("activity", "cn.nit.beauty.ui.SplashActivity");
+            broadcast.setPredefinedKeyValue("display_type", "message");
+            // For how to register a test device, please see the developer doc.
+            broadcast.setPredefinedKeyValue("production_mode", "true");
+            Date date = new Date();
+            broadcast.setPredefinedKeyValue("description", message + ":" + date.toString());
             broadcast.send();
         } catch (Exception e) {
             e.printStackTrace();

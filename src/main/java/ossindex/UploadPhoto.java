@@ -49,7 +49,8 @@ public class UploadPhoto {
         startIndex.start(accessKeyId, accessKeySecret, bucketName);
 
         PushBroadcastMessage pushBroadcastMessage = new PushBroadcastMessage();
-        pushBroadcastMessage.send("每日更新", "套图更新了,速来围观");
+        pushBroadcastMessage.sendNotification("每日更新", "套图更新了,速来围观");
+        pushBroadcastMessage.sendMessage("update");
     }
 
     private static void Start(File file) throws IOException {
