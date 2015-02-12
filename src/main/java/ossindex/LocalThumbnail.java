@@ -1,6 +1,7 @@
 package ossindex;
 
 import net.coobird.thumbnailator.Thumbnails;
+import net.coobird.thumbnailator.tasks.UnsupportedFormatException;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -165,18 +166,26 @@ public class LocalThumbnail {
 
             double scale = bigSize / file.length() * 3.5;
             int i = 0;
-            do {
-                i++;
 
-                ByteArrayOutputStream os = new ByteArrayOutputStream();
 
-                Thumbnails.of(file).scale(scale).outputFormat("jpg").toOutputStream(os);
-                bytes = os.toByteArray();
+            try {
+                do {
+                    i++;
 
-                if (bytes.length - bigSize > 0) scale -= 0.01;
-                else scale += 0.01;
+                    ByteArrayOutputStream os = new ByteArrayOutputStream();
 
-            } while (Math.abs(bytes.length - bigSize) > (bigSize * 0.1)  && i < 10);
+                    Thumbnails.of(file).scale(scale).outputFormat("jpg").toOutputStream(os);
+                    bytes = os.toByteArray();
+
+                    if (bytes.length - bigSize > 0) scale -= 0.01;
+                    else scale += 0.01;
+
+                } while (Math.abs(bytes.length - bigSize) > (bigSize * 0.1)  && i < 10);
+            } catch (UnsupportedFormatException e) {
+                logger.info("bigthumb:" + file.getPath() + ":" + e.getMessage());
+                file.delete();
+                continue;
+            }
 
             logger.info("bigthumb:" + file.getPath() + ":" + df.format(scale) + ":" + i);
 
