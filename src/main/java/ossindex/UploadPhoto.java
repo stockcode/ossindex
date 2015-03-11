@@ -46,11 +46,11 @@ public class UploadPhoto {
         Start(new File(path));
         StartIndex startIndex = new StartIndex();
 
-        startIndex.start(accessKeyId, accessKeySecret, bucketName);
+//        startIndex.start(accessKeyId, accessKeySecret, bucketName);
 
-        PushBroadcastMessage pushBroadcastMessage = new PushBroadcastMessage();
-        pushBroadcastMessage.sendNotification("每日更新", "套图更新了,速来围观");
-        pushBroadcastMessage.sendMessage("update");
+//        PushBroadcastMessage pushBroadcastMessage = new PushBroadcastMessage();
+//        pushBroadcastMessage.sendNotification("每日更新", "套图更新了,速来围观");
+//        pushBroadcastMessage.sendMessage("update");
     }
 
     private static void Start(File file) throws IOException {
@@ -66,10 +66,15 @@ public class UploadPhoto {
 
             File folders[] = category.listFiles();
 
-            if (folders != null && folders.length > 0) {
-                int index = rd.nextInt(folders.length);
-                StartEnum(folders[index]);
-                FileUtils.forceDelete(folders[index]);
+            int index = rd.nextInt(folders.length);
+            //StartEnum(folders[index]);
+            FileUtils.forceDelete(folders[index]);
+
+            folders = category.listFiles();
+
+            if (folders.length == 0) {
+                category.delete();
+                logger.info(category.getAbsolutePath() + "--文件夹为空，已删除");
             }
         }
 
