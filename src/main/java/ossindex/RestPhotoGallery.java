@@ -28,10 +28,10 @@ public class RestPhotoGallery {
 		Unirest.setDefaultHeader("Content-Type", "application/json");
 	}
 
-	public String SavePhotoGallery(PhotoGallery photoGallery)
+	public void SavePhotoGallery(PhotoGallery photoGallery)
             throws UnirestException, JSONException {
 
-		PhotoGallery query = new PhotoGallery();
+		Query query = new Query();
 		
 		query.setKey(photoGallery.getKey());
 		
@@ -42,16 +42,30 @@ public class RestPhotoGallery {
 		JSONArray results = result.getBody().getObject().getJSONArray("results");
 		
 		if (!results.isNull(0)) {
-			return results.getJSONObject(0).get("objectId").toString();
+			photoGallery.setObjectId(results.getJSONObject(0).getString("objectId"));
+			photoGallery.setCommentCount(results.getJSONObject(0).getInt("commentCount"));
+			photoGallery.setHit(results.getJSONObject(0).getInt("hit"));
+			photoGallery.setUploader(results.getJSONObject(0).getString("uploader"));
 		}
 		else {
-
-		
-		HttpResponse<JsonNode> jsonResponse = Unirest
+			HttpResponse<JsonNode> jsonResponse = Unirest
 				.post("https://api.bmob.cn/1/classes/PhotoGallery").body(gson.toJson(photoGallery))
 				.asJson();
 
-		return jsonResponse.getBody().getObject().get("objectId").toString();
+			photoGallery.setObjectId(jsonResponse.getBody().getObject().getString("objectId"));
 		}
+	}
+}
+
+
+class Query {
+	String key;
+
+	public String getKey() {
+		return key;
+	}
+
+	public void setKey(String key) {
+		this.key = key;
 	}
 }

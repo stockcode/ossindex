@@ -102,7 +102,7 @@ public class StartIndex {
                     strs = listFolder.split("/");
                     if (strs.length > 1) {
                     	PhotoGallery photoGallery = new PhotoGallery(listFolder);                    	
-                    	String objectId = restPhotoGallery.SavePhotoGallery(photoGallery);
+                    	restPhotoGallery.SavePhotoGallery(photoGallery);
                     	
                         String date = "2000-01-01";
 
@@ -110,7 +110,7 @@ public class StartIndex {
                         listing = client.listObjects(listObjectsRequest);
                         ImageInfos imageInfos = new ImageInfos();
 
-                        imageInfos.setObjectId(objectId);
+                        imageInfos.setObjectId(photoGallery.getObjectId());
                         
                         for(OSSObjectSummary summary : listing.getObjectSummaries()) {
                             String key = summary.getKey();
@@ -120,6 +120,9 @@ public class StartIndex {
 
                             ImageInfo imageInfo = new ImageInfo();
                             imageInfo.setKey(key.substring(key.lastIndexOf("/")+1, key.length()));
+                            imageInfo.setCommentCount(photoGallery.getCommentCount());
+                            imageInfo.setHit(photoGallery.getHit());
+                            imageInfo.setUploader(photoGallery.getUploader());
                             imageInfos.getResults().add(imageInfo);
                             date = df.format(summary.getLastModified());
                         }
@@ -131,9 +134,11 @@ public class StartIndex {
 
                         uploadIndex(bucketName, client, str, listFolder + "index.json");
 
-                        urls.add(listFolder + ":" + date + ":" + objectId);
+                        String url = listFolder + ":" + date + ":" + photoGallery.getObjectId() + ":" + photoGallery.getHit() + ":" + photoGallery.getCommentCount() + ":" + photoGallery.getUploader();
 
-                        if (today.equals(date)) dailyUrls.add(listFolder + ":" + date + ":" + objectId);
+                        urls.add(url);
+
+                        if (today.equals(date)) dailyUrls.add(url);
                     }
                 }
             }
