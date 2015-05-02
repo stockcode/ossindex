@@ -59,15 +59,20 @@ public class UploadPhoto {
         File regions[] = file.listFiles();
 
         for (File region : regions) {
+            logger.info("专区：" + region.getPath());
+
             if (filterDir.indexOf(region.getName())> -1 ) continue;
             File categories[] = region.listFiles();
-
+            if (categories.length == 0) {
+                logger.info("专区：" + region.getPath() + "没有图片");
+                continue;
+            }
             File category = categories[rd.nextInt(categories.length)];
 
             File folders[] = category.listFiles();
 
             int index = rd.nextInt(folders.length);
-            //StartEnum(folders[index]);
+            StartEnum(folders[index]);
             FileUtils.forceDelete(folders[index]);
 
             folders = category.listFiles();

@@ -181,7 +181,7 @@ public class LocalThumbnail {
                     else scale += 0.01;
 
                 } while (Math.abs(bytes.length - bigSize) > (bigSize * 0.1)  && i < 10);
-            } catch (UnsupportedFormatException e) {
+            } catch (Exception e) {
                 logger.info("bigthumb:" + file.getPath() + ":" + e.getMessage());
                 file.delete();
                 continue;
