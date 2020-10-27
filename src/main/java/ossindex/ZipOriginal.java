@@ -27,8 +27,8 @@ public class ZipOriginal {
 
 
     public static void main(String[] args) throws IOException {
-        String accessKeyId = "tEPWqYKJGESwhRo5";
-        String accessKeySecret = "oUkPZvE5HghfRbkX5wklu6qAiDnMrw";
+        String accessKeyId = "";
+        String accessKeySecret = "";
         String bucketName = "nit-photo";
         // 初始化一个OSSClient
         OSSClient client = new OSSClient(accessKeyId, accessKeySecret);
